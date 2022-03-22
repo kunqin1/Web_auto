@@ -1,0 +1,1077 @@
+2022-01-14 11:49:49,121 py30 INFO basepage.py-38 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-01-14 11:49:49,219 py30 INFO basepage.py-50 line：等待耗时为：0.09755277633666992
+2022-01-14 11:49:49,219 py30 INFO basepage.py-91 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 11:49:49,227 py30 INFO basepage.py-144 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 11:49:49,663 py30 INFO basepage.py-38 line：在 输入手机号、邮箱 行为，等待元素：('xpath', '//input[@id="u-email"]') 可见。
+2022-01-14 11:49:49,680 py30 INFO basepage.py-50 line：等待耗时为：0.016956090927124023
+2022-01-14 11:49:49,681 py30 INFO basepage.py-91 line：在 输入手机号、邮箱 行为，查找元素：('xpath', '//input[@id="u-email"]')
+2022-01-14 11:49:49,686 py30 INFO basepage.py-164 line：在 输入手机号、邮箱 行为，给元素：('xpath', '//input[@id="u-email"]') 输入文本值：
+2022-01-14 11:49:49,715 py30 INFO basepage.py-38 line：在 输入密码 行为，等待元素：('xpath', '//input[@placeholder="请输入密码"]') 可见。
+2022-01-14 11:49:49,732 py30 INFO basepage.py-50 line：等待耗时为：0.016954898834228516
+2022-01-14 11:49:49,732 py30 INFO basepage.py-91 line：在 输入密码 行为，查找元素：('xpath', '//input[@placeholder="请输入密码"]')
+2022-01-14 11:49:49,737 py30 INFO basepage.py-164 line：在 输入密码 行为，给元素：('xpath', '//input[@placeholder="请输入密码"]') 输入文本值：
+2022-01-14 11:49:49,769 py30 INFO basepage.py-38 line：在 点击登录按钮 行为，等待元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]') 可见。
+2022-01-14 11:49:49,790 py30 INFO basepage.py-50 line：等待耗时为：0.020944595336914062
+2022-01-14 11:49:49,791 py30 INFO basepage.py-91 line：在 点击登录按钮 行为，查找元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-01-14 11:49:49,801 py30 INFO basepage.py-144 line：在 点击登录按钮 行为，点击元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-01-14 11:49:49,930 py30 INFO basepage.py-38 line：在 等待登录失败提示出现 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-01-14 11:49:49,947 py30 INFO basepage.py-50 line：等待耗时为：0.01695537567138672
+2022-01-14 11:49:49,948 py30 INFO basepage.py-38 line：在 获取错误的信息 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-01-14 11:49:50,056 py30 INFO basepage.py-50 line：等待耗时为：0.10868406295776367
+2022-01-14 11:49:50,056 py30 INFO basepage.py-91 line：在 获取错误的信息 行为，查找元素：('xpath', '//*[@class="icon16 u-a-cw"]')
+2022-01-14 11:49:50,062 py30 INFO basepage.py-184 line：在 获取错误的信息 行为，获取元素：('xpath', '//*[@class="icon16 u-a-cw"]') 文本值
+2022-01-14 11:49:50,106 py30 INFO basepage.py-38 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-01-14 11:49:50,118 py30 INFO basepage.py-50 line：等待耗时为：0.01194310188293457
+2022-01-14 11:49:50,118 py30 INFO basepage.py-91 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 11:49:50,124 py30 INFO basepage.py-144 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 11:49:50,142 py30 ERROR basepage.py-148 line：点击元素失败！
+Traceback (most recent call last):
+  File "D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Common\basepage.py", line 146, in click_element
+    ele.click()
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element <span class="vam ml5">...</span> is not clickable at point (1448, 34). Other element would receive the click: <div class="bMask"></div>
+  (Session info: chrome=96.0.4664.110)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Windows NT 10.0.19041 x86_64)
+
+2022-01-14 11:49:50,495 py30 ERROR basepage.py-274 line：对 点击首页登录按钮 操作进行截图成功
+2022-01-14 11:49:50,495 py30 INFO basepage.py-275 line：截图保存在：D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Outputs\screenshots\点击首页登录按钮_2022-01-14-11-49-50.png
+2022-01-14 11:49:50,530 py30 INFO basepage.py-38 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-01-14 11:49:50,542 py30 INFO basepage.py-50 line：等待耗时为：0.010945558547973633
+2022-01-14 11:49:50,542 py30 INFO basepage.py-91 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 11:49:50,549 py30 INFO basepage.py-144 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 11:49:50,568 py30 ERROR basepage.py-148 line：点击元素失败！
+Traceback (most recent call last):
+  File "D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Common\basepage.py", line 146, in click_element
+    ele.click()
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element <span class="vam ml5">...</span> is not clickable at point (1448, 34). Other element would receive the click: <div class="bMask"></div>
+  (Session info: chrome=96.0.4664.110)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Windows NT 10.0.19041 x86_64)
+
+2022-01-14 11:49:51,005 py30 ERROR basepage.py-274 line：对 点击首页登录按钮 操作进行截图成功
+2022-01-14 11:49:51,005 py30 INFO basepage.py-275 line：截图保存在：D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Outputs\screenshots\点击首页登录按钮_2022-01-14-11-49-50.png
+2022-01-14 11:49:51,038 py30 INFO basepage.py-38 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-01-14 11:49:51,049 py30 INFO basepage.py-50 line：等待耗时为：0.010970354080200195
+2022-01-14 11:49:51,049 py30 INFO basepage.py-91 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 11:49:51,054 py30 INFO basepage.py-144 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 11:49:51,071 py30 ERROR basepage.py-148 line：点击元素失败！
+Traceback (most recent call last):
+  File "D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Common\basepage.py", line 146, in click_element
+    ele.click()
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element <span class="vam ml5">...</span> is not clickable at point (1448, 34). Other element would receive the click: <div class="bMask"></div>
+  (Session info: chrome=96.0.4664.110)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Windows NT 10.0.19041 x86_64)
+
+2022-01-14 11:49:51,428 py30 ERROR basepage.py-274 line：对 点击首页登录按钮 操作进行截图成功
+2022-01-14 11:49:51,429 py30 INFO basepage.py-275 line：截图保存在：D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Outputs\screenshots\点击首页登录按钮_2022-01-14-11-49-51.png
+2022-01-14 12:17:16,805 py30 INFO basepage.py-38 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-01-14 12:17:16,901 py30 INFO basepage.py-50 line：等待耗时为：0.09583282470703125
+2022-01-14 12:17:16,901 py30 INFO basepage.py-91 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:17:16,907 py30 INFO basepage.py-144 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:17:17,330 py30 INFO basepage.py-38 line：在 输入手机号、邮箱 行为，等待元素：('xpath', '//input[@id="u-email"]') 可见。
+2022-01-14 12:17:17,346 py30 INFO basepage.py-50 line：等待耗时为：0.01595759391784668
+2022-01-14 12:17:17,346 py30 INFO basepage.py-91 line：在 输入手机号、邮箱 行为，查找元素：('xpath', '//input[@id="u-email"]')
+2022-01-14 12:17:17,352 py30 INFO basepage.py-164 line：在 输入手机号、邮箱 行为，给元素：('xpath', '//input[@id="u-email"]') 输入文本值：
+2022-01-14 12:17:17,381 py30 INFO basepage.py-38 line：在 输入密码 行为，等待元素：('xpath', '//input[@placeholder="请输入密码"]') 可见。
+2022-01-14 12:17:17,398 py30 INFO basepage.py-50 line：等待耗时为：0.016954421997070312
+2022-01-14 12:17:17,398 py30 INFO basepage.py-91 line：在 输入密码 行为，查找元素：('xpath', '//input[@placeholder="请输入密码"]')
+2022-01-14 12:17:17,404 py30 INFO basepage.py-164 line：在 输入密码 行为，给元素：('xpath', '//input[@placeholder="请输入密码"]') 输入文本值：
+2022-01-14 12:17:17,437 py30 INFO basepage.py-38 line：在 点击登录按钮 行为，等待元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]') 可见。
+2022-01-14 12:17:17,455 py30 INFO basepage.py-50 line：等待耗时为：0.01795220375061035
+2022-01-14 12:17:17,455 py30 INFO basepage.py-91 line：在 点击登录按钮 行为，查找元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-01-14 12:17:17,462 py30 INFO basepage.py-144 line：在 点击登录按钮 行为，点击元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-01-14 12:17:17,609 py30 INFO basepage.py-38 line：在 等待登录失败提示出现 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-01-14 12:17:17,626 py30 INFO basepage.py-50 line：等待耗时为：0.01695394515991211
+2022-01-14 12:17:17,626 py30 INFO basepage.py-38 line：在 获取错误的信息 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-01-14 12:17:17,637 py30 INFO basepage.py-50 line：等待耗时为：0.010971784591674805
+2022-01-14 12:17:17,638 py30 INFO basepage.py-91 line：在 获取错误的信息 行为，查找元素：('xpath', '//*[@class="icon16 u-a-cw"]')
+2022-01-14 12:17:17,644 py30 INFO basepage.py-184 line：在 获取错误的信息 行为，获取元素：('xpath', '//*[@class="icon16 u-a-cw"]') 文本值
+2022-01-14 12:17:17,698 py30 INFO basepage.py-38 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-01-14 12:17:17,775 py30 INFO basepage.py-50 line：等待耗时为：0.07643985748291016
+2022-01-14 12:17:17,775 py30 INFO basepage.py-91 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:17:17,781 py30 INFO basepage.py-144 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:17:17,798 py30 ERROR basepage.py-148 line：点击元素失败！
+Traceback (most recent call last):
+  File "D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Common\basepage.py", line 146, in click_element
+    ele.click()
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element <span class="vam ml5">...</span> is not clickable at point (1448, 34). Other element would receive the click: <div class="bMask"></div>
+  (Session info: chrome=96.0.4664.110)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Windows NT 10.0.19041 x86_64)
+
+2022-01-14 12:17:18,107 py30 ERROR basepage.py-274 line：对 点击首页登录按钮 操作进行截图成功
+2022-01-14 12:17:18,107 py30 INFO basepage.py-275 line：截图保存在：D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Outputs\screenshots\点击首页登录按钮_2022-01-14-12-17-17.png
+2022-01-14 12:17:18,140 py30 INFO basepage.py-38 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-01-14 12:17:18,152 py30 INFO basepage.py-50 line：等待耗时为：0.011993885040283203
+2022-01-14 12:17:18,152 py30 INFO basepage.py-91 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:17:18,158 py30 INFO basepage.py-144 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:17:18,176 py30 ERROR basepage.py-148 line：点击元素失败！
+Traceback (most recent call last):
+  File "D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Common\basepage.py", line 146, in click_element
+    ele.click()
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element <span class="vam ml5">...</span> is not clickable at point (1448, 34). Other element would receive the click: <div class="bMask"></div>
+  (Session info: chrome=96.0.4664.110)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Windows NT 10.0.19041 x86_64)
+
+2022-01-14 12:17:18,488 py30 ERROR basepage.py-274 line：对 点击首页登录按钮 操作进行截图成功
+2022-01-14 12:17:18,488 py30 INFO basepage.py-275 line：截图保存在：D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Outputs\screenshots\点击首页登录按钮_2022-01-14-12-17-18.png
+2022-01-14 12:17:18,523 py30 INFO basepage.py-38 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-01-14 12:17:18,535 py30 INFO basepage.py-50 line：等待耗时为：0.011963844299316406
+2022-01-14 12:17:18,535 py30 INFO basepage.py-91 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:17:18,539 py30 INFO basepage.py-144 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:17:18,557 py30 ERROR basepage.py-148 line：点击元素失败！
+Traceback (most recent call last):
+  File "D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Common\basepage.py", line 146, in click_element
+    ele.click()
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element <span class="vam ml5">...</span> is not clickable at point (1448, 34). Other element would receive the click: <div class="bMask"></div>
+  (Session info: chrome=96.0.4664.110)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Windows NT 10.0.19041 x86_64)
+
+2022-01-14 12:17:18,873 py30 ERROR basepage.py-274 line：对 点击首页登录按钮 操作进行截图成功
+2022-01-14 12:17:18,873 py30 INFO basepage.py-275 line：截图保存在：D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Outputs\screenshots\点击首页登录按钮_2022-01-14-12-17-18.png
+2022-01-14 12:20:30,089 py30 INFO basepage.py-38 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-01-14 12:20:30,188 py30 INFO basepage.py-50 line：等待耗时为：0.09874916076660156
+2022-01-14 12:20:30,188 py30 INFO basepage.py-91 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:20:30,194 py30 INFO basepage.py-144 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:20:30,683 py30 INFO basepage.py-38 line：在 输入手机号、邮箱 行为，等待元素：('xpath', '//input[@id="u-email"]') 可见。
+2022-01-14 12:20:30,704 py30 INFO basepage.py-50 line：等待耗时为：0.020919084548950195
+2022-01-14 12:20:30,704 py30 INFO basepage.py-91 line：在 输入手机号、邮箱 行为，查找元素：('xpath', '//input[@id="u-email"]')
+2022-01-14 12:20:30,710 py30 INFO basepage.py-164 line：在 输入手机号、邮箱 行为，给元素：('xpath', '//input[@id="u-email"]') 输入文本值：
+2022-01-14 12:20:30,740 py30 INFO basepage.py-38 line：在 输入密码 行为，等待元素：('xpath', '//input[@placeholder="请输入密码"]') 可见。
+2022-01-14 12:20:30,758 py30 INFO basepage.py-50 line：等待耗时为：0.017952680587768555
+2022-01-14 12:20:30,758 py30 INFO basepage.py-91 line：在 输入密码 行为，查找元素：('xpath', '//input[@placeholder="请输入密码"]')
+2022-01-14 12:20:30,763 py30 INFO basepage.py-164 line：在 输入密码 行为，给元素：('xpath', '//input[@placeholder="请输入密码"]') 输入文本值：
+2022-01-14 12:20:30,796 py30 INFO basepage.py-38 line：在 点击登录按钮 行为，等待元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]') 可见。
+2022-01-14 12:20:30,817 py30 INFO basepage.py-50 line：等待耗时为：0.02094411849975586
+2022-01-14 12:20:30,817 py30 INFO basepage.py-91 line：在 点击登录按钮 行为，查找元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-01-14 12:20:30,824 py30 INFO basepage.py-144 line：在 点击登录按钮 行为，点击元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-01-14 12:20:31,041 py30 INFO basepage.py-38 line：在 等待登录失败提示出现 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-01-14 12:20:31,058 py30 INFO basepage.py-50 line：等待耗时为：0.01695394515991211
+2022-01-14 12:20:31,058 py30 INFO basepage.py-38 line：在 获取错误的信息 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-01-14 12:20:31,070 py30 INFO basepage.py-50 line：等待耗时为：0.011968135833740234
+2022-01-14 12:20:31,070 py30 INFO basepage.py-91 line：在 获取错误的信息 行为，查找元素：('xpath', '//*[@class="icon16 u-a-cw"]')
+2022-01-14 12:20:31,076 py30 INFO basepage.py-184 line：在 获取错误的信息 行为，获取元素：('xpath', '//*[@class="icon16 u-a-cw"]') 文本值
+2022-01-14 12:20:31,113 py30 INFO basepage.py-38 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-01-14 12:20:31,132 py30 INFO basepage.py-50 line：等待耗时为：0.018924951553344727
+2022-01-14 12:20:31,132 py30 INFO basepage.py-91 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:20:31,138 py30 INFO basepage.py-144 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:20:31,155 py30 ERROR basepage.py-148 line：点击元素失败！
+Traceback (most recent call last):
+  File "D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Common\basepage.py", line 146, in click_element
+    ele.click()
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element <span class="vam ml5">...</span> is not clickable at point (1448, 34). Other element would receive the click: <div class="bMask"></div>
+  (Session info: chrome=96.0.4664.110)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Windows NT 10.0.19041 x86_64)
+
+2022-01-14 12:20:31,468 py30 ERROR basepage.py-274 line：对 点击首页登录按钮 操作进行截图成功
+2022-01-14 12:20:31,468 py30 INFO basepage.py-275 line：截图保存在：D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Outputs\screenshots\点击首页登录按钮_2022-01-14-12-20-31.png
+2022-01-14 12:20:31,498 py30 INFO basepage.py-38 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-01-14 12:20:31,510 py30 INFO basepage.py-50 line：等待耗时为：0.01194310188293457
+2022-01-14 12:20:31,510 py30 INFO basepage.py-91 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:20:31,516 py30 INFO basepage.py-144 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:20:31,534 py30 ERROR basepage.py-148 line：点击元素失败！
+Traceback (most recent call last):
+  File "D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Common\basepage.py", line 146, in click_element
+    ele.click()
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element <span class="vam ml5">...</span> is not clickable at point (1448, 34). Other element would receive the click: <div class="bMask"></div>
+  (Session info: chrome=96.0.4664.110)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Windows NT 10.0.19041 x86_64)
+
+2022-01-14 12:20:31,851 py30 ERROR basepage.py-274 line：对 点击首页登录按钮 操作进行截图成功
+2022-01-14 12:20:31,851 py30 INFO basepage.py-275 line：截图保存在：D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Outputs\screenshots\点击首页登录按钮_2022-01-14-12-20-31.png
+2022-01-14 12:20:31,883 py30 INFO basepage.py-38 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-01-14 12:20:31,895 py30 INFO basepage.py-50 line：等待耗时为：0.01194310188293457
+2022-01-14 12:20:31,895 py30 INFO basepage.py-91 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:20:31,899 py30 INFO basepage.py-144 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:20:31,918 py30 ERROR basepage.py-148 line：点击元素失败！
+Traceback (most recent call last):
+  File "D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Common\basepage.py", line 146, in click_element
+    ele.click()
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element <span class="vam ml5">...</span> is not clickable at point (1448, 34). Other element would receive the click: <div class="bMask"></div>
+  (Session info: chrome=96.0.4664.110)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Windows NT 10.0.19041 x86_64)
+
+2022-01-14 12:20:32,232 py30 ERROR basepage.py-274 line：对 点击首页登录按钮 操作进行截图成功
+2022-01-14 12:20:32,232 py30 INFO basepage.py-275 line：截图保存在：D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Outputs\screenshots\点击首页登录按钮_2022-01-14-12-20-31.png
+2022-01-14 12:21:50,386 py30 INFO basepage.py-38 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-01-14 12:21:50,484 py30 INFO basepage.py-50 line：等待耗时为：0.09873604774475098
+2022-01-14 12:21:50,484 py30 INFO basepage.py-91 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:21:50,491 py30 INFO basepage.py-144 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:21:50,940 py30 INFO basepage.py-38 line：在 输入手机号、邮箱 行为，等待元素：('xpath', '//input[@id="u-email"]') 可见。
+2022-01-14 12:21:50,958 py30 INFO basepage.py-50 line：等待耗时为：0.01798868179321289
+2022-01-14 12:21:50,958 py30 INFO basepage.py-91 line：在 输入手机号、邮箱 行为，查找元素：('xpath', '//input[@id="u-email"]')
+2022-01-14 12:21:50,964 py30 INFO basepage.py-164 line：在 输入手机号、邮箱 行为，给元素：('xpath', '//input[@id="u-email"]') 输入文本值：
+2022-01-14 12:21:50,994 py30 INFO basepage.py-38 line：在 输入密码 行为，等待元素：('xpath', '//input[@placeholder="请输入密码"]') 可见。
+2022-01-14 12:21:51,012 py30 INFO basepage.py-50 line：等待耗时为：0.017922639846801758
+2022-01-14 12:21:51,012 py30 INFO basepage.py-91 line：在 输入密码 行为，查找元素：('xpath', '//input[@placeholder="请输入密码"]')
+2022-01-14 12:21:51,018 py30 INFO basepage.py-164 line：在 输入密码 行为，给元素：('xpath', '//input[@placeholder="请输入密码"]') 输入文本值：
+2022-01-14 12:21:51,051 py30 INFO basepage.py-38 line：在 点击登录按钮 行为，等待元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]') 可见。
+2022-01-14 12:21:51,073 py30 INFO basepage.py-50 line：等待耗时为：0.02196478843688965
+2022-01-14 12:21:51,073 py30 INFO basepage.py-91 line：在 点击登录按钮 行为，查找元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-01-14 12:21:51,080 py30 INFO basepage.py-144 line：在 点击登录按钮 行为，点击元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-01-14 12:21:51,311 py30 INFO basepage.py-38 line：在 等待登录失败提示出现 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-01-14 12:21:51,327 py30 INFO basepage.py-50 line：等待耗时为：0.015956401824951172
+2022-01-14 12:21:51,327 py30 INFO basepage.py-38 line：在 获取错误的信息 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-01-14 12:21:51,338 py30 INFO basepage.py-50 line：等待耗时为：0.011052131652832031
+2022-01-14 12:21:51,338 py30 INFO basepage.py-91 line：在 获取错误的信息 行为，查找元素：('xpath', '//*[@class="icon16 u-a-cw"]')
+2022-01-14 12:21:51,344 py30 INFO basepage.py-184 line：在 获取错误的信息 行为，获取元素：('xpath', '//*[@class="icon16 u-a-cw"]') 文本值
+2022-01-14 12:21:51,401 py30 INFO basepage.py-38 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-01-14 12:21:51,412 py30 INFO basepage.py-50 line：等待耗时为：0.010946273803710938
+2022-01-14 12:21:51,412 py30 INFO basepage.py-91 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:21:51,418 py30 INFO basepage.py-144 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:21:51,436 py30 ERROR basepage.py-148 line：点击元素失败！
+Traceback (most recent call last):
+  File "D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Common\basepage.py", line 146, in click_element
+    ele.click()
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element <span class="vam ml5">...</span> is not clickable at point (1448, 34). Other element would receive the click: <div class="bMask"></div>
+  (Session info: chrome=96.0.4664.110)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Windows NT 10.0.19041 x86_64)
+
+2022-01-14 12:21:51,747 py30 ERROR basepage.py-274 line：对 点击首页登录按钮 操作进行截图成功
+2022-01-14 12:21:51,747 py30 INFO basepage.py-275 line：截图保存在：D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Outputs\screenshots\点击首页登录按钮_2022-01-14-12-21-51.png
+2022-01-14 12:21:51,779 py30 INFO basepage.py-38 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-01-14 12:21:51,790 py30 INFO basepage.py-50 line：等待耗时为：0.01094508171081543
+2022-01-14 12:21:51,790 py30 INFO basepage.py-91 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:21:51,796 py30 INFO basepage.py-144 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:21:51,813 py30 ERROR basepage.py-148 line：点击元素失败！
+Traceback (most recent call last):
+  File "D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Common\basepage.py", line 146, in click_element
+    ele.click()
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element <span class="vam ml5">...</span> is not clickable at point (1448, 34). Other element would receive the click: <div class="bMask"></div>
+  (Session info: chrome=96.0.4664.110)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Windows NT 10.0.19041 x86_64)
+
+2022-01-14 12:21:52,134 py30 ERROR basepage.py-274 line：对 点击首页登录按钮 操作进行截图成功
+2022-01-14 12:21:52,134 py30 INFO basepage.py-275 line：截图保存在：D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Outputs\screenshots\点击首页登录按钮_2022-01-14-12-21-51.png
+2022-01-14 12:21:52,174 py30 INFO basepage.py-38 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-01-14 12:21:52,186 py30 INFO basepage.py-50 line：等待耗时为：0.011968851089477539
+2022-01-14 12:21:52,186 py30 INFO basepage.py-91 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:21:52,191 py30 INFO basepage.py-144 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:21:52,210 py30 ERROR basepage.py-148 line：点击元素失败！
+Traceback (most recent call last):
+  File "D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Common\basepage.py", line 146, in click_element
+    ele.click()
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element <span class="vam ml5">...</span> is not clickable at point (1448, 34). Other element would receive the click: <div class="bMask"></div>
+  (Session info: chrome=96.0.4664.110)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Windows NT 10.0.19041 x86_64)
+
+2022-01-14 12:21:52,530 py30 ERROR basepage.py-274 line：对 点击首页登录按钮 操作进行截图成功
+2022-01-14 12:21:52,530 py30 INFO basepage.py-275 line：截图保存在：D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Outputs\screenshots\点击首页登录按钮_2022-01-14-12-21-52.png
+2022-01-14 12:23:20,697 py30 INFO basepage.py-38 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-01-14 12:23:20,791 py30 INFO basepage.py-50 line：等待耗时为：0.09474730491638184
+2022-01-14 12:23:20,791 py30 INFO basepage.py-91 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:23:20,798 py30 INFO basepage.py-144 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:23:21,280 py30 INFO basepage.py-38 line：在 输入手机号、邮箱 行为，等待元素：('xpath', '//input[@id="u-email"]') 可见。
+2022-01-14 12:23:21,299 py30 INFO basepage.py-50 line：等待耗时为：0.018950462341308594
+2022-01-14 12:23:21,299 py30 INFO basepage.py-91 line：在 输入手机号、邮箱 行为，查找元素：('xpath', '//input[@id="u-email"]')
+2022-01-14 12:23:21,305 py30 INFO basepage.py-164 line：在 输入手机号、邮箱 行为，给元素：('xpath', '//input[@id="u-email"]') 输入文本值：
+2022-01-14 12:23:21,335 py30 INFO basepage.py-38 line：在 输入密码 行为，等待元素：('xpath', '//input[@placeholder="请输入密码"]') 可见。
+2022-01-14 12:23:21,352 py30 INFO basepage.py-50 line：等待耗时为：0.016954421997070312
+2022-01-14 12:23:21,353 py30 INFO basepage.py-91 line：在 输入密码 行为，查找元素：('xpath', '//input[@placeholder="请输入密码"]')
+2022-01-14 12:23:21,359 py30 INFO basepage.py-164 line：在 输入密码 行为，给元素：('xpath', '//input[@placeholder="请输入密码"]') 输入文本值：
+2022-01-14 12:23:21,389 py30 INFO basepage.py-38 line：在 点击登录按钮 行为，等待元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]') 可见。
+2022-01-14 12:23:21,406 py30 INFO basepage.py-50 line：等待耗时为：0.016955137252807617
+2022-01-14 12:23:21,406 py30 INFO basepage.py-91 line：在 点击登录按钮 行为，查找元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-01-14 12:23:21,412 py30 INFO basepage.py-144 line：在 点击登录按钮 行为，点击元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-01-14 12:23:21,650 py30 INFO basepage.py-38 line：在 等待登录失败提示出现 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-01-14 12:23:21,671 py30 INFO basepage.py-50 line：等待耗时为：0.020944595336914062
+2022-01-14 12:23:21,672 py30 INFO basepage.py-38 line：在 获取错误的信息 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-01-14 12:23:21,683 py30 INFO basepage.py-50 line：等待耗时为：0.010945558547973633
+2022-01-14 12:23:21,683 py30 INFO basepage.py-91 line：在 获取错误的信息 行为，查找元素：('xpath', '//*[@class="icon16 u-a-cw"]')
+2022-01-14 12:23:21,688 py30 INFO basepage.py-184 line：在 获取错误的信息 行为，获取元素：('xpath', '//*[@class="icon16 u-a-cw"]') 文本值
+2022-01-14 12:23:21,744 py30 INFO basepage.py-38 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-01-14 12:23:21,754 py30 INFO basepage.py-50 line：等待耗时为：0.009973287582397461
+2022-01-14 12:23:21,754 py30 INFO basepage.py-91 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:23:21,761 py30 INFO basepage.py-144 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:23:21,780 py30 ERROR basepage.py-148 line：点击元素失败！
+Traceback (most recent call last):
+  File "D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Common\basepage.py", line 146, in click_element
+    ele.click()
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element <span class="vam ml5">...</span> is not clickable at point (1448, 34). Other element would receive the click: <div class="bMask"></div>
+  (Session info: chrome=96.0.4664.110)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Windows NT 10.0.19041 x86_64)
+
+2022-01-14 12:23:22,087 py30 ERROR basepage.py-274 line：对 点击首页登录按钮 操作进行截图成功
+2022-01-14 12:23:22,087 py30 INFO basepage.py-275 line：截图保存在：D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Outputs\screenshots\点击首页登录按钮_2022-01-14-12-23-21.png
+2022-01-14 12:23:22,119 py30 INFO basepage.py-38 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-01-14 12:23:22,129 py30 INFO basepage.py-50 line：等待耗时为：0.009948492050170898
+2022-01-14 12:23:22,130 py30 INFO basepage.py-91 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:23:22,136 py30 INFO basepage.py-144 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:23:22,154 py30 ERROR basepage.py-148 line：点击元素失败！
+Traceback (most recent call last):
+  File "D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Common\basepage.py", line 146, in click_element
+    ele.click()
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element <span class="vam ml5">...</span> is not clickable at point (1448, 34). Other element would receive the click: <div class="bMask"></div>
+  (Session info: chrome=96.0.4664.110)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Windows NT 10.0.19041 x86_64)
+
+2022-01-14 12:23:22,470 py30 ERROR basepage.py-274 line：对 点击首页登录按钮 操作进行截图成功
+2022-01-14 12:23:22,471 py30 INFO basepage.py-275 line：截图保存在：D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Outputs\screenshots\点击首页登录按钮_2022-01-14-12-23-22.png
+2022-01-14 12:23:22,504 py30 INFO basepage.py-38 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-01-14 12:23:22,516 py30 INFO basepage.py-50 line：等待耗时为：0.011946678161621094
+2022-01-14 12:23:22,516 py30 INFO basepage.py-91 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:23:22,521 py30 INFO basepage.py-144 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:23:22,540 py30 ERROR basepage.py-148 line：点击元素失败！
+Traceback (most recent call last):
+  File "D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Common\basepage.py", line 146, in click_element
+    ele.click()
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element <span class="vam ml5">...</span> is not clickable at point (1448, 34). Other element would receive the click: <div class="bMask"></div>
+  (Session info: chrome=96.0.4664.110)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Windows NT 10.0.19041 x86_64)
+
+2022-01-14 12:23:22,852 py30 ERROR basepage.py-274 line：对 点击首页登录按钮 操作进行截图成功
+2022-01-14 12:23:22,852 py30 INFO basepage.py-275 line：截图保存在：D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Outputs\screenshots\点击首页登录按钮_2022-01-14-12-23-22.png
+2022-01-14 12:24:57,465 py30 INFO basepage.py-38 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-01-14 12:24:57,559 py30 INFO basepage.py-50 line：等待耗时为：0.09472107887268066
+2022-01-14 12:24:57,559 py30 INFO basepage.py-91 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:24:57,566 py30 INFO basepage.py-144 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:24:58,056 py30 INFO basepage.py-38 line：在 输入手机号、邮箱 行为，等待元素：('xpath', '//input[@id="u-email"]') 可见。
+2022-01-14 12:24:58,074 py30 INFO basepage.py-50 line：等待耗时为：0.017952442169189453
+2022-01-14 12:24:58,074 py30 INFO basepage.py-91 line：在 输入手机号、邮箱 行为，查找元素：('xpath', '//input[@id="u-email"]')
+2022-01-14 12:24:58,080 py30 INFO basepage.py-164 line：在 输入手机号、邮箱 行为，给元素：('xpath', '//input[@id="u-email"]') 输入文本值：
+2022-01-14 12:24:58,110 py30 INFO basepage.py-38 line：在 输入密码 行为，等待元素：('xpath', '//input[@placeholder="请输入密码"]') 可见。
+2022-01-14 12:24:58,126 py30 INFO basepage.py-50 line：等待耗时为：0.015957117080688477
+2022-01-14 12:24:58,126 py30 INFO basepage.py-91 line：在 输入密码 行为，查找元素：('xpath', '//input[@placeholder="请输入密码"]')
+2022-01-14 12:24:58,132 py30 INFO basepage.py-164 line：在 输入密码 行为，给元素：('xpath', '//input[@placeholder="请输入密码"]') 输入文本值：
+2022-01-14 12:24:58,164 py30 INFO basepage.py-38 line：在 点击登录按钮 行为，等待元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]') 可见。
+2022-01-14 12:24:58,184 py30 INFO basepage.py-50 line：等待耗时为：0.019524812698364258
+2022-01-14 12:24:58,184 py30 INFO basepage.py-91 line：在 点击登录按钮 行为，查找元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-01-14 12:24:58,190 py30 INFO basepage.py-144 line：在 点击登录按钮 行为，点击元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-01-14 12:24:58,317 py30 INFO basepage.py-38 line：在 等待登录失败提示出现 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-01-14 12:24:58,441 py30 INFO basepage.py-50 line：等待耗时为：0.12414383888244629
+2022-01-14 12:24:58,441 py30 INFO basepage.py-38 line：在 获取错误的信息 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-01-14 12:24:58,452 py30 INFO basepage.py-50 line：等待耗时为：0.010996818542480469
+2022-01-14 12:24:58,452 py30 INFO basepage.py-91 line：在 获取错误的信息 行为，查找元素：('xpath', '//*[@class="icon16 u-a-cw"]')
+2022-01-14 12:24:58,459 py30 INFO basepage.py-184 line：在 获取错误的信息 行为，获取元素：('xpath', '//*[@class="icon16 u-a-cw"]') 文本值
+2022-01-14 12:24:58,467 py30 INFO basepage.py-38 line：在 关闭登录弹窗 行为，等待元素：('xpath', '//a[@id="dClose"]') 可见。
+2022-01-14 12:24:58,482 py30 INFO basepage.py-50 line：等待耗时为：0.01495981216430664
+2022-01-14 12:24:58,482 py30 INFO basepage.py-91 line：在 关闭登录弹窗 行为，查找元素：('xpath', '//a[@id="dClose"]')
+2022-01-14 12:24:58,489 py30 INFO basepage.py-144 line：在 关闭登录弹窗 行为，点击元素：('xpath', '//a[@id="dClose"]')
+2022-01-14 12:24:58,563 py30 INFO basepage.py-38 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-01-14 12:24:58,574 py30 INFO basepage.py-50 line：等待耗时为：0.010943412780761719
+2022-01-14 12:24:58,575 py30 INFO basepage.py-91 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:24:58,580 py30 INFO basepage.py-144 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:24:59,025 py30 INFO basepage.py-38 line：在 输入手机号、邮箱 行为，等待元素：('xpath', '//input[@id="u-email"]') 可见。
+2022-01-14 12:24:59,040 py30 INFO basepage.py-50 line：等待耗时为：0.013938188552856445
+2022-01-14 12:24:59,041 py30 INFO basepage.py-91 line：在 输入手机号、邮箱 行为，查找元素：('xpath', '//input[@id="u-email"]')
+2022-01-14 12:24:59,047 py30 INFO basepage.py-164 line：在 输入手机号、邮箱 行为，给元素：('xpath', '//input[@id="u-email"]') 输入文本值：18684720553
+2022-01-14 12:24:59,140 py30 INFO basepage.py-38 line：在 输入密码 行为，等待元素：('xpath', '//input[@placeholder="请输入密码"]') 可见。
+2022-01-14 12:24:59,157 py30 INFO basepage.py-50 line：等待耗时为：0.01695537567138672
+2022-01-14 12:24:59,158 py30 INFO basepage.py-91 line：在 输入密码 行为，查找元素：('xpath', '//input[@placeholder="请输入密码"]')
+2022-01-14 12:24:59,163 py30 INFO basepage.py-164 line：在 输入密码 行为，给元素：('xpath', '//input[@placeholder="请输入密码"]') 输入文本值：
+2022-01-14 12:24:59,196 py30 INFO basepage.py-38 line：在 点击登录按钮 行为，等待元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]') 可见。
+2022-01-14 12:24:59,211 py30 INFO basepage.py-50 line：等待耗时为：0.014959096908569336
+2022-01-14 12:24:59,211 py30 INFO basepage.py-91 line：在 点击登录按钮 行为，查找元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-01-14 12:24:59,217 py30 INFO basepage.py-144 line：在 点击登录按钮 行为，点击元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-01-14 12:24:59,260 py30 INFO basepage.py-38 line：在 等待登录失败提示出现 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-01-14 12:24:59,278 py30 INFO basepage.py-50 line：等待耗时为：0.016967296600341797
+2022-01-14 12:24:59,278 py30 INFO basepage.py-38 line：在 获取错误的信息 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-01-14 12:24:59,289 py30 INFO basepage.py-50 line：等待耗时为：0.010973215103149414
+2022-01-14 12:24:59,290 py30 INFO basepage.py-91 line：在 获取错误的信息 行为，查找元素：('xpath', '//*[@class="icon16 u-a-cw"]')
+2022-01-14 12:24:59,296 py30 INFO basepage.py-184 line：在 获取错误的信息 行为，获取元素：('xpath', '//*[@class="icon16 u-a-cw"]') 文本值
+2022-01-14 12:24:59,306 py30 INFO basepage.py-38 line：在 关闭登录弹窗 行为，等待元素：('xpath', '//a[@id="dClose"]') 可见。
+2022-01-14 12:24:59,319 py30 INFO basepage.py-50 line：等待耗时为：0.01196908950805664
+2022-01-14 12:24:59,319 py30 INFO basepage.py-91 line：在 关闭登录弹窗 行为，查找元素：('xpath', '//a[@id="dClose"]')
+2022-01-14 12:24:59,325 py30 INFO basepage.py-144 line：在 关闭登录弹窗 行为，点击元素：('xpath', '//a[@id="dClose"]')
+2022-01-14 12:24:59,355 py30 INFO basepage.py-38 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-01-14 12:24:59,366 py30 INFO basepage.py-50 line：等待耗时为：0.010967016220092773
+2022-01-14 12:24:59,366 py30 INFO basepage.py-91 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:24:59,374 py30 INFO basepage.py-144 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:24:59,822 py30 INFO basepage.py-38 line：在 输入手机号、邮箱 行为，等待元素：('xpath', '//input[@id="u-email"]') 可见。
+2022-01-14 12:24:59,836 py30 INFO basepage.py-50 line：等待耗时为：0.013962984085083008
+2022-01-14 12:24:59,836 py30 INFO basepage.py-91 line：在 输入手机号、邮箱 行为，查找元素：('xpath', '//input[@id="u-email"]')
+2022-01-14 12:24:59,842 py30 INFO basepage.py-164 line：在 输入手机号、邮箱 行为，给元素：('xpath', '//input[@id="u-email"]') 输入文本值：1868472055
+2022-01-14 12:24:59,917 py30 INFO basepage.py-38 line：在 输入密码 行为，等待元素：('xpath', '//input[@placeholder="请输入密码"]') 可见。
+2022-01-14 12:24:59,930 py30 INFO basepage.py-50 line：等待耗时为：0.012966394424438477
+2022-01-14 12:24:59,930 py30 INFO basepage.py-91 line：在 输入密码 行为，查找元素：('xpath', '//input[@placeholder="请输入密码"]')
+2022-01-14 12:24:59,936 py30 INFO basepage.py-164 line：在 输入密码 行为，给元素：('xpath', '//input[@placeholder="请输入密码"]') 输入文本值：python
+2022-01-14 12:24:59,993 py30 INFO basepage.py-38 line：在 点击登录按钮 行为，等待元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]') 可见。
+2022-01-14 12:25:00,010 py30 INFO basepage.py-50 line：等待耗时为：0.01695418357849121
+2022-01-14 12:25:00,010 py30 INFO basepage.py-91 line：在 点击登录按钮 行为，查找元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-01-14 12:25:00,017 py30 INFO basepage.py-144 line：在 点击登录按钮 行为，点击元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-01-14 12:25:00,061 py30 INFO basepage.py-38 line：在 等待登录失败提示出现 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-01-14 12:25:20,562 py30 ERROR basepage.py-44 line：等待元素 ('xpath', '//*[@class="icon16 u-a-cw"]') 可见失败！
+Traceback (most recent call last):
+  File "D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Common\basepage.py", line 41, in wait_ele_visible
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.visibility_of_element_located(locator))
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2022-01-14 12:25:31,537 py30 ERROR basepage.py-274 line：对 等待登录失败提示出现 操作进行截图成功
+2022-01-14 12:25:31,537 py30 INFO basepage.py-275 line：截图保存在：D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Outputs\screenshots\等待登录失败提示出现_2022-01-14-12-25-20.png
+2022-01-14 12:25:31,847 py30 ERROR basepage.py-274 line：对 用例失败截图 操作进行截图成功
+2022-01-14 12:25:31,847 py30 INFO basepage.py-275 line：截图保存在：D:\测试资料\web自动化源码\py30_20200828_basepage封装+日志和失败截图实现\Web_auto\Outputs\screenshots\用例失败截图_2022-01-14-12-25-31.png
+2022-01-14 12:25:31,847 py30 INFO basepage.py-38 line：在 关闭登录弹窗 行为，等待元素：('xpath', '//a[@id="dClose"]') 可见。
+2022-01-14 12:25:31,864 py30 INFO basepage.py-50 line：等待耗时为：0.016925811767578125
+2022-01-14 12:25:31,864 py30 INFO basepage.py-91 line：在 关闭登录弹窗 行为，查找元素：('xpath', '//a[@id="dClose"]')
+2022-01-14 12:25:31,871 py30 INFO basepage.py-144 line：在 关闭登录弹窗 行为，点击元素：('xpath', '//a[@id="dClose"]')
+2022-01-14 12:25:31,918 py30 INFO basepage.py-38 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-01-14 12:25:31,944 py30 INFO basepage.py-50 line：等待耗时为：0.025957345962524414
+2022-01-14 12:25:31,944 py30 INFO basepage.py-91 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:25:31,952 py30 INFO basepage.py-144 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 12:25:32,400 py30 INFO basepage.py-38 line：在 输入手机号、邮箱 行为，等待元素：('xpath', '//input[@id="u-email"]') 可见。
+2022-01-14 12:25:32,419 py30 INFO basepage.py-50 line：等待耗时为：0.01894855499267578
+2022-01-14 12:25:32,419 py30 INFO basepage.py-91 line：在 输入手机号、邮箱 行为，查找元素：('xpath', '//input[@id="u-email"]')
+2022-01-14 12:25:32,425 py30 INFO basepage.py-164 line：在 输入手机号、邮箱 行为，给元素：('xpath', '//input[@id="u-email"]') 输入文本值：18782048139
+2022-01-14 12:25:32,501 py30 INFO basepage.py-38 line：在 输入密码 行为，等待元素：('xpath', '//input[@placeholder="请输入密码"]') 可见。
+2022-01-14 12:25:32,517 py30 INFO basepage.py-50 line：等待耗时为：0.015985488891601562
+2022-01-14 12:25:32,518 py30 INFO basepage.py-91 line：在 输入密码 行为，查找元素：('xpath', '//input[@placeholder="请输入密码"]')
+2022-01-14 12:25:32,524 py30 INFO basepage.py-164 line：在 输入密码 行为，给元素：('xpath', '//input[@placeholder="请输入密码"]') 输入文本值：123456789
+2022-01-14 12:25:32,596 py30 INFO basepage.py-38 line：在 点击登录按钮 行为，等待元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]') 可见。
+2022-01-14 12:25:32,617 py30 INFO basepage.py-50 line：等待耗时为：0.019991159439086914
+2022-01-14 12:25:32,617 py30 INFO basepage.py-91 line：在 点击登录按钮 行为，查找元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-01-14 12:25:32,624 py30 INFO basepage.py-144 line：在 点击登录按钮 行为，点击元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-01-14 12:25:37,079 py30 INFO basepage.py-38 line：在 查看登录后，用户名是否存在 行为，等待元素：('xpath', '//*[@id="userName"]') 可见。
+2022-01-14 12:25:37,836 py30 INFO basepage.py-50 line：等待耗时为：0.7569453716278076
+2022-01-14 12:25:37,836 py30 INFO basepage.py-91 line：在 查看登录后，用户名是否存在 行为，查找元素：('xpath', '//*[@id="userName"]')
+2022-01-14 17:34:40,316 py30 INFO basepage.py-260 line：在 切换到柠檬班官网 行为中，打开新窗口并切换
+2022-01-14 17:34:40,316 py30 INFO basepage.py-249 line：获取当前窗口句柄
+2022-01-14 17:34:40,389 py30 INFO basepage.py-249 line：获取当前窗口句柄
+2022-01-14 17:34:40,391 py30 ERROR basepage.py-272 line：切换新窗口失败
+Traceback (most recent call last):
+  File "D:/Test_framework/Web_auto/Common/basepage.py", line 270, in open_new_window_and_switch
+    self.driver.switch_to(new_wins[-1])
+TypeError: 'SwitchTo' object is not callable
+2022-01-14 17:34:40,547 py30 ERROR basepage.py-307 line：对 切换到柠檬班官网 操作进行截图成功
+2022-01-14 17:34:40,547 py30 INFO basepage.py-308 line：截图保存在：D:\Test_framework\Web_auto\Outputs\screenshots\切换到柠檬班官网_2022-01-14-17-34-40.png
+2022-01-14 17:36:24,334 py30 INFO basepage.py-260 line：在 切换到柠檬班官网 行为中，打开新窗口并切换
+2022-01-14 17:36:24,334 py30 INFO basepage.py-249 line：获取当前窗口句柄
+2022-01-14 17:36:24,403 py30 INFO basepage.py-249 line：获取当前窗口句柄
+2022-01-14 18:18:26,361 py30 INFO basepage.py-38 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-01-14 18:18:26,381 py30 INFO basepage.py-50 line：等待耗时为：0.019957780838012695
+2022-01-14 18:18:26,382 py30 INFO basepage.py-91 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 18:18:26,388 py30 INFO basepage.py-144 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 18:18:27,800 py30 INFO basepage.py-38 line：在 输入手机号、邮箱 行为，等待元素：('xpath', '//input[@id="u-email"]') 可见。
+2022-01-14 18:18:27,820 py30 INFO basepage.py-50 line：等待耗时为：0.019946813583374023
+2022-01-14 18:18:27,820 py30 INFO basepage.py-91 line：在 输入手机号、邮箱 行为，查找元素：('xpath', '//input[@id="u-email"]')
+2022-01-14 18:18:27,827 py30 INFO basepage.py-164 line：在 输入手机号、邮箱 行为，给元素：('xpath', '//input[@id="u-email"]') 输入文本值：
+2022-01-14 18:18:27,862 py30 INFO basepage.py-38 line：在 输入密码 行为，等待元素：('xpath', '//input[@placeholder="请输入密码"]') 可见。
+2022-01-14 18:18:27,882 py30 INFO basepage.py-50 line：等待耗时为：0.01995849609375
+2022-01-14 18:18:27,882 py30 INFO basepage.py-91 line：在 输入密码 行为，查找元素：('xpath', '//input[@placeholder="请输入密码"]')
+2022-01-14 18:18:27,888 py30 INFO basepage.py-164 line：在 输入密码 行为，给元素：('xpath', '//input[@placeholder="请输入密码"]') 输入文本值：
+2022-01-14 18:18:27,924 py30 INFO basepage.py-38 line：在 点击登录按钮 行为，等待元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]') 可见。
+2022-01-14 18:18:27,945 py30 INFO basepage.py-50 line：等待耗时为：0.020944595336914062
+2022-01-14 18:18:27,945 py30 INFO basepage.py-91 line：在 点击登录按钮 行为，查找元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-01-14 18:18:27,953 py30 INFO basepage.py-144 line：在 点击登录按钮 行为，点击元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-01-14 18:18:31,915 py30 INFO basepage.py-38 line：在 等待登录失败提示出现 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-01-14 18:18:31,942 py30 INFO basepage.py-50 line：等待耗时为：0.027942419052124023
+2022-01-14 18:18:31,942 py30 INFO basepage.py-38 line：在 获取错误的信息 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-01-14 18:18:31,958 py30 INFO basepage.py-50 line：等待耗时为：0.01594066619873047
+2022-01-14 18:18:31,958 py30 INFO basepage.py-91 line：在 获取错误的信息 行为，查找元素：('xpath', '//*[@class="icon16 u-a-cw"]')
+2022-01-14 18:18:31,974 py30 INFO basepage.py-184 line：在 获取错误的信息 行为，获取元素：('xpath', '//*[@class="icon16 u-a-cw"]') 文本值
+2022-01-14 18:18:31,986 py30 INFO basepage.py-38 line：在 关闭登录弹窗 行为，等待元素：('xpath', '//a[@id="dClose"]') 可见。
+2022-01-14 18:18:32,006 py30 INFO basepage.py-50 line：等待耗时为：0.01994466781616211
+2022-01-14 18:18:32,006 py30 INFO basepage.py-91 line：在 关闭登录弹窗 行为，查找元素：('xpath', '//a[@id="dClose"]')
+2022-01-14 18:18:32,012 py30 INFO basepage.py-144 line：在 关闭登录弹窗 行为，点击元素：('xpath', '//a[@id="dClose"]')
+2022-01-14 18:18:32,115 py30 INFO basepage.py-38 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-01-14 18:18:32,129 py30 INFO basepage.py-50 line：等待耗时为：0.013962507247924805
+2022-01-14 18:18:32,129 py30 INFO basepage.py-91 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 18:18:32,138 py30 INFO basepage.py-144 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 18:18:32,574 py30 INFO basepage.py-38 line：在 输入手机号、邮箱 行为，等待元素：('xpath', '//input[@id="u-email"]') 可见。
+2022-01-14 18:18:32,590 py30 INFO basepage.py-50 line：等待耗时为：0.01595759391784668
+2022-01-14 18:18:32,590 py30 INFO basepage.py-91 line：在 输入手机号、邮箱 行为，查找元素：('xpath', '//input[@id="u-email"]')
+2022-01-14 18:18:32,596 py30 INFO basepage.py-164 line：在 输入手机号、邮箱 行为，给元素：('xpath', '//input[@id="u-email"]') 输入文本值：18684720553
+2022-01-14 18:18:32,671 py30 INFO basepage.py-38 line：在 输入密码 行为，等待元素：('xpath', '//input[@placeholder="请输入密码"]') 可见。
+2022-01-14 18:18:32,687 py30 INFO basepage.py-50 line：等待耗时为：0.016956090927124023
+2022-01-14 18:18:32,687 py30 INFO basepage.py-91 line：在 输入密码 行为，查找元素：('xpath', '//input[@placeholder="请输入密码"]')
+2022-01-14 18:18:32,692 py30 INFO basepage.py-164 line：在 输入密码 行为，给元素：('xpath', '//input[@placeholder="请输入密码"]') 输入文本值：
+2022-01-14 18:18:32,727 py30 INFO basepage.py-38 line：在 点击登录按钮 行为，等待元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]') 可见。
+2022-01-14 18:18:32,744 py30 INFO basepage.py-50 line：等待耗时为：0.0169830322265625
+2022-01-14 18:18:32,744 py30 INFO basepage.py-91 line：在 点击登录按钮 行为，查找元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-01-14 18:18:32,751 py30 INFO basepage.py-144 line：在 点击登录按钮 行为，点击元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-01-14 18:18:32,791 py30 INFO basepage.py-38 line：在 等待登录失败提示出现 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-01-14 18:18:32,809 py30 INFO basepage.py-50 line：等待耗时为：0.01795220375061035
+2022-01-14 18:18:32,809 py30 INFO basepage.py-38 line：在 获取错误的信息 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-01-14 18:18:32,821 py30 INFO basepage.py-50 line：等待耗时为：0.011968612670898438
+2022-01-14 18:18:32,821 py30 INFO basepage.py-91 line：在 获取错误的信息 行为，查找元素：('xpath', '//*[@class="icon16 u-a-cw"]')
+2022-01-14 18:18:32,827 py30 INFO basepage.py-184 line：在 获取错误的信息 行为，获取元素：('xpath', '//*[@class="icon16 u-a-cw"]') 文本值
+2022-01-14 18:18:32,837 py30 INFO basepage.py-38 line：在 关闭登录弹窗 行为，等待元素：('xpath', '//a[@id="dClose"]') 可见。
+2022-01-14 18:18:32,853 py30 INFO basepage.py-50 line：等待耗时为：0.015955448150634766
+2022-01-14 18:18:32,854 py30 INFO basepage.py-91 line：在 关闭登录弹窗 行为，查找元素：('xpath', '//a[@id="dClose"]')
+2022-01-14 18:18:32,859 py30 INFO basepage.py-144 line：在 关闭登录弹窗 行为，点击元素：('xpath', '//a[@id="dClose"]')
+2022-01-14 18:18:32,893 py30 INFO basepage.py-38 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-01-14 18:18:32,911 py30 INFO basepage.py-50 line：等待耗时为：0.017927169799804688
+2022-01-14 18:18:32,912 py30 INFO basepage.py-91 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 18:18:32,919 py30 INFO basepage.py-144 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 18:18:33,287 py30 INFO basepage.py-38 line：在 输入手机号、邮箱 行为，等待元素：('xpath', '//input[@id="u-email"]') 可见。
+2022-01-14 18:18:33,303 py30 INFO basepage.py-50 line：等待耗时为：0.01595616340637207
+2022-01-14 18:18:33,303 py30 INFO basepage.py-91 line：在 输入手机号、邮箱 行为，查找元素：('xpath', '//input[@id="u-email"]')
+2022-01-14 18:18:33,308 py30 INFO basepage.py-164 line：在 输入手机号、邮箱 行为，给元素：('xpath', '//input[@id="u-email"]') 输入文本值：1868472055
+2022-01-14 18:18:33,372 py30 INFO basepage.py-38 line：在 输入密码 行为，等待元素：('xpath', '//input[@placeholder="请输入密码"]') 可见。
+2022-01-14 18:18:33,388 py30 INFO basepage.py-50 line：等待耗时为：0.015956878662109375
+2022-01-14 18:18:33,388 py30 INFO basepage.py-91 line：在 输入密码 行为，查找元素：('xpath', '//input[@placeholder="请输入密码"]')
+2022-01-14 18:18:33,394 py30 INFO basepage.py-164 line：在 输入密码 行为，给元素：('xpath', '//input[@placeholder="请输入密码"]') 输入文本值：python
+2022-01-14 18:18:33,446 py30 INFO basepage.py-38 line：在 点击登录按钮 行为，等待元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]') 可见。
+2022-01-14 18:18:33,461 py30 INFO basepage.py-50 line：等待耗时为：0.01495981216430664
+2022-01-14 18:18:33,462 py30 INFO basepage.py-91 line：在 点击登录按钮 行为，查找元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-01-14 18:18:33,468 py30 INFO basepage.py-144 line：在 点击登录按钮 行为，点击元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-01-14 18:18:33,510 py30 INFO basepage.py-38 line：在 等待登录失败提示出现 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-01-14 18:18:53,584 py30 ERROR basepage.py-44 line：等待元素 ('xpath', '//*[@class="icon16 u-a-cw"]') 可见失败！
+Traceback (most recent call last):
+  File "D:\Test_framework\Web_auto\Common\basepage.py", line 41, in wait_ele_visible
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.visibility_of_element_located(locator))
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2022-01-14 18:18:54,036 py30 ERROR basepage.py-283 line：对 等待登录失败提示出现 操作进行截图成功
+2022-01-14 18:18:54,036 py30 INFO basepage.py-284 line：截图保存在：D:\Test_framework\Web_auto\Outputs\screenshots\等待登录失败提示出现_2022-01-14-18-18-53.png
+2022-01-14 18:18:54,364 py30 ERROR basepage.py-283 line：对 获取错误信息用例失败截图 操作进行截图成功
+2022-01-14 18:18:54,364 py30 INFO basepage.py-284 line：截图保存在：D:\Test_framework\Web_auto\Outputs\screenshots\获取错误信息用例失败截图_2022-01-14-18-18-54.png
+2022-01-14 18:18:54,365 py30 INFO basepage.py-38 line：在 关闭登录弹窗 行为，等待元素：('xpath', '//a[@id="dClose"]') 可见。
+2022-01-14 18:18:54,382 py30 INFO basepage.py-50 line：等待耗时为：0.016987085342407227
+2022-01-14 18:18:54,382 py30 INFO basepage.py-91 line：在 关闭登录弹窗 行为，查找元素：('xpath', '//a[@id="dClose"]')
+2022-01-14 18:18:54,388 py30 INFO basepage.py-144 line：在 关闭登录弹窗 行为，点击元素：('xpath', '//a[@id="dClose"]')
+2022-01-14 18:18:54,438 py30 INFO basepage.py-38 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-01-14 18:18:54,459 py30 INFO basepage.py-50 line：等待耗时为：0.020943641662597656
+2022-01-14 18:18:54,459 py30 INFO basepage.py-91 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 18:18:54,466 py30 INFO basepage.py-144 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-01-14 18:18:54,921 py30 INFO basepage.py-38 line：在 输入手机号、邮箱 行为，等待元素：('xpath', '//input[@id="u-email"]') 可见。
+2022-01-14 18:18:54,940 py30 INFO basepage.py-50 line：等待耗时为：0.018950223922729492
+2022-01-14 18:18:54,940 py30 INFO basepage.py-91 line：在 输入手机号、邮箱 行为，查找元素：('xpath', '//input[@id="u-email"]')
+2022-01-14 18:18:54,946 py30 INFO basepage.py-164 line：在 输入手机号、邮箱 行为，给元素：('xpath', '//input[@id="u-email"]') 输入文本值：18782048139
+2022-01-14 18:18:55,051 py30 INFO basepage.py-38 line：在 输入密码 行为，等待元素：('xpath', '//input[@placeholder="请输入密码"]') 可见。
+2022-01-14 18:18:55,068 py30 INFO basepage.py-50 line：等待耗时为：0.016954898834228516
+2022-01-14 18:18:55,068 py30 INFO basepage.py-91 line：在 输入密码 行为，查找元素：('xpath', '//input[@placeholder="请输入密码"]')
+2022-01-14 18:18:55,075 py30 INFO basepage.py-164 line：在 输入密码 行为，给元素：('xpath', '//input[@placeholder="请输入密码"]') 输入文本值：123456789
+2022-01-14 18:18:55,164 py30 INFO basepage.py-38 line：在 点击登录按钮 行为，等待元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]') 可见。
+2022-01-14 18:18:55,181 py30 INFO basepage.py-50 line：等待耗时为：0.016954660415649414
+2022-01-14 18:18:55,182 py30 INFO basepage.py-91 line：在 点击登录按钮 行为，查找元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-01-14 18:18:55,188 py30 INFO basepage.py-144 line：在 点击登录按钮 行为，点击元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-01-14 18:18:55,246 py30 INFO basepage.py-38 line：在 查看登录后，用户名是否存在 行为，等待元素：('xpath', '//*[@id="userName"]') 可见。
+2022-01-14 18:18:56,048 py30 INFO basepage.py-50 line：等待耗时为：0.8023579120635986
+2022-01-14 18:18:56,049 py30 INFO basepage.py-91 line：在 查看登录后，用户名是否存在 行为，查找元素：('xpath', '//*[@id="userName"]')
+2022-03-17 17:11:11,955 py30 INFO basepage.py-38 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-03-17 17:11:12,065 py30 INFO basepage.py-50 line：等待耗时为：0.08809900283813477
+2022-03-17 17:11:12,066 py30 INFO basepage.py-91 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-03-17 17:11:12,072 py30 INFO basepage.py-144 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-03-17 17:11:12,515 py30 INFO basepage.py-38 line：在 输入手机号、邮箱 行为，等待元素：('xpath', '//input[@id="u-email"]') 可见。
+2022-03-17 17:11:12,530 py30 INFO basepage.py-50 line：等待耗时为：0.015957117080688477
+2022-03-17 17:11:12,531 py30 INFO basepage.py-91 line：在 输入手机号、邮箱 行为，查找元素：('xpath', '//input[@id="u-email"]')
+2022-03-17 17:11:12,536 py30 INFO basepage.py-164 line：在 输入手机号、邮箱 行为，给元素：('xpath', '//input[@id="u-email"]') 输入文本值：
+2022-03-17 17:11:12,567 py30 INFO basepage.py-38 line：在 输入密码 行为，等待元素：('xpath', '//input[@placeholder="请输入密码"]') 可见。
+2022-03-17 17:11:12,582 py30 INFO basepage.py-50 line：等待耗时为：0.014960050582885742
+2022-03-17 17:11:12,582 py30 INFO basepage.py-91 line：在 输入密码 行为，查找元素：('xpath', '//input[@placeholder="请输入密码"]')
+2022-03-17 17:11:12,588 py30 INFO basepage.py-164 line：在 输入密码 行为，给元素：('xpath', '//input[@placeholder="请输入密码"]') 输入文本值：
+2022-03-17 17:11:12,619 py30 INFO basepage.py-38 line：在 点击登录按钮 行为，等待元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]') 可见。
+2022-03-17 17:11:12,638 py30 INFO basepage.py-50 line：等待耗时为：0.017951250076293945
+2022-03-17 17:11:12,639 py30 INFO basepage.py-91 line：在 点击登录按钮 行为，查找元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-03-17 17:11:12,646 py30 INFO basepage.py-144 line：在 点击登录按钮 行为，点击元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-03-17 17:11:12,771 py30 INFO basepage.py-38 line：在 等待登录失败提示出现 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-03-17 17:11:12,899 py30 INFO basepage.py-50 line：等待耗时为：0.12742257118225098
+2022-03-17 17:11:12,900 py30 INFO basepage.py-38 line：在 获取错误的信息 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-03-17 17:11:12,911 py30 INFO basepage.py-50 line：等待耗时为：0.011550426483154297
+2022-03-17 17:11:12,911 py30 INFO basepage.py-91 line：在 获取错误的信息 行为，查找元素：('xpath', '//*[@class="icon16 u-a-cw"]')
+2022-03-17 17:11:12,917 py30 INFO basepage.py-184 line：在 获取错误的信息 行为，获取元素：('xpath', '//*[@class="icon16 u-a-cw"]') 文本值
+2022-03-17 17:11:12,927 py30 INFO basepage.py-38 line：在 关闭登录弹窗 行为，等待元素：('xpath', '//a[@id="dClose"]') 可见。
+2022-03-17 17:11:12,944 py30 INFO basepage.py-50 line：等待耗时为：0.016954660415649414
+2022-03-17 17:11:12,953 py30 INFO basepage.py-91 line：在 关闭登录弹窗 行为，查找元素：('xpath', '//a[@id="dClose"]')
+2022-03-17 17:11:12,959 py30 INFO basepage.py-144 line：在 关闭登录弹窗 行为，点击元素：('xpath', '//a[@id="dClose"]')
+2022-03-17 17:11:13,055 py30 INFO basepage.py-38 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-03-17 17:11:13,066 py30 INFO basepage.py-50 line：等待耗时为：0.0109710693359375
+2022-03-17 17:11:13,067 py30 INFO basepage.py-91 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-03-17 17:11:13,074 py30 INFO basepage.py-144 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-03-17 17:11:13,475 py30 INFO basepage.py-38 line：在 输入手机号、邮箱 行为，等待元素：('xpath', '//input[@id="u-email"]') 可见。
+2022-03-17 17:11:13,491 py30 INFO basepage.py-50 line：等待耗时为：0.015958309173583984
+2022-03-17 17:11:13,491 py30 INFO basepage.py-91 line：在 输入手机号、邮箱 行为，查找元素：('xpath', '//input[@id="u-email"]')
+2022-03-17 17:11:13,502 py30 INFO basepage.py-164 line：在 输入手机号、邮箱 行为，给元素：('xpath', '//input[@id="u-email"]') 输入文本值：18684720553
+2022-03-17 17:11:13,596 py30 INFO basepage.py-38 line：在 输入密码 行为，等待元素：('xpath', '//input[@placeholder="请输入密码"]') 可见。
+2022-03-17 17:11:13,610 py30 INFO basepage.py-50 line：等待耗时为：0.013962745666503906
+2022-03-17 17:11:13,610 py30 INFO basepage.py-91 line：在 输入密码 行为，查找元素：('xpath', '//input[@placeholder="请输入密码"]')
+2022-03-17 17:11:13,615 py30 INFO basepage.py-164 line：在 输入密码 行为，给元素：('xpath', '//input[@placeholder="请输入密码"]') 输入文本值：
+2022-03-17 17:11:13,646 py30 INFO basepage.py-38 line：在 点击登录按钮 行为，等待元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]') 可见。
+2022-03-17 17:11:13,664 py30 INFO basepage.py-50 line：等待耗时为：0.01795196533203125
+2022-03-17 17:11:13,664 py30 INFO basepage.py-91 line：在 点击登录按钮 行为，查找元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-03-17 17:11:13,670 py30 INFO basepage.py-144 line：在 点击登录按钮 行为，点击元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-03-17 17:11:13,713 py30 INFO basepage.py-38 line：在 等待登录失败提示出现 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-03-17 17:11:13,730 py30 INFO basepage.py-50 line：等待耗时为：0.016953229904174805
+2022-03-17 17:11:13,730 py30 INFO basepage.py-38 line：在 获取错误的信息 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-03-17 17:11:13,744 py30 INFO basepage.py-50 line：等待耗时为：0.013963699340820312
+2022-03-17 17:11:13,744 py30 INFO basepage.py-91 line：在 获取错误的信息 行为，查找元素：('xpath', '//*[@class="icon16 u-a-cw"]')
+2022-03-17 17:11:13,750 py30 INFO basepage.py-184 line：在 获取错误的信息 行为，获取元素：('xpath', '//*[@class="icon16 u-a-cw"]') 文本值
+2022-03-17 17:11:13,759 py30 INFO basepage.py-38 line：在 关闭登录弹窗 行为，等待元素：('xpath', '//a[@id="dClose"]') 可见。
+2022-03-17 17:11:13,772 py30 INFO basepage.py-50 line：等待耗时为：0.013010263442993164
+2022-03-17 17:11:13,772 py30 INFO basepage.py-91 line：在 关闭登录弹窗 行为，查找元素：('xpath', '//a[@id="dClose"]')
+2022-03-17 17:11:13,778 py30 INFO basepage.py-144 line：在 关闭登录弹窗 行为，点击元素：('xpath', '//a[@id="dClose"]')
+2022-03-17 17:11:13,810 py30 INFO basepage.py-38 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-03-17 17:11:13,823 py30 INFO basepage.py-50 line：等待耗时为：0.012935876846313477
+2022-03-17 17:11:13,823 py30 INFO basepage.py-91 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-03-17 17:11:13,828 py30 INFO basepage.py-144 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-03-17 17:11:14,208 py30 INFO basepage.py-38 line：在 输入手机号、邮箱 行为，等待元素：('xpath', '//input[@id="u-email"]') 可见。
+2022-03-17 17:11:14,223 py30 INFO basepage.py-50 line：等待耗时为：0.014935970306396484
+2022-03-17 17:11:14,223 py30 INFO basepage.py-91 line：在 输入手机号、邮箱 行为，查找元素：('xpath', '//input[@id="u-email"]')
+2022-03-17 17:11:14,229 py30 INFO basepage.py-164 line：在 输入手机号、邮箱 行为，给元素：('xpath', '//input[@id="u-email"]') 输入文本值：1868472055
+2022-03-17 17:11:14,317 py30 INFO basepage.py-38 line：在 输入密码 行为，等待元素：('xpath', '//input[@placeholder="请输入密码"]') 可见。
+2022-03-17 17:11:14,331 py30 INFO basepage.py-50 line：等待耗时为：0.013025045394897461
+2022-03-17 17:11:14,332 py30 INFO basepage.py-91 line：在 输入密码 行为，查找元素：('xpath', '//input[@placeholder="请输入密码"]')
+2022-03-17 17:11:14,336 py30 INFO basepage.py-164 line：在 输入密码 行为，给元素：('xpath', '//input[@placeholder="请输入密码"]') 输入文本值：python
+2022-03-17 17:11:14,412 py30 INFO basepage.py-38 line：在 点击登录按钮 行为，等待元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]') 可见。
+2022-03-17 17:11:14,426 py30 INFO basepage.py-50 line：等待耗时为：0.013933897018432617
+2022-03-17 17:11:14,426 py30 INFO basepage.py-91 line：在 点击登录按钮 行为，查找元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-03-17 17:11:14,432 py30 INFO basepage.py-144 line：在 点击登录按钮 行为，点击元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-03-17 17:11:14,461 py30 INFO basepage.py-38 line：在 等待登录失败提示出现 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-03-17 17:11:34,616 py30 ERROR basepage.py-44 line：等待元素 ('xpath', '//*[@class="icon16 u-a-cw"]') 可见失败！
+Traceback (most recent call last):
+  File "D:\Test_framework\Web_auto\Common\basepage.py", line 41, in wait_ele_visible
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.visibility_of_element_located(locator))
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2022-03-17 17:11:36,409 py30 ERROR basepage.py-283 line：对 等待登录失败提示出现 操作进行截图成功
+2022-03-17 17:11:36,409 py30 INFO basepage.py-284 line：截图保存在：D:\Test_framework\Web_auto\Outputs\screenshots\等待登录失败提示出现_2022-03-17-17-11-34.png
+2022-03-17 17:11:36,725 py30 ERROR basepage.py-283 line：对 获取错误信息用例失败截图 操作进行截图成功
+2022-03-17 17:11:36,726 py30 INFO basepage.py-284 line：截图保存在：D:\Test_framework\Web_auto\Outputs\screenshots\获取错误信息用例失败截图_2022-03-17-17-11-36.png
+2022-03-17 17:11:36,726 py30 INFO basepage.py-38 line：在 关闭登录弹窗 行为，等待元素：('xpath', '//a[@id="dClose"]') 可见。
+2022-03-17 17:11:36,741 py30 INFO basepage.py-50 line：等待耗时为：0.014959573745727539
+2022-03-17 17:11:36,741 py30 INFO basepage.py-91 line：在 关闭登录弹窗 行为，查找元素：('xpath', '//a[@id="dClose"]')
+2022-03-17 17:11:36,746 py30 INFO basepage.py-144 line：在 关闭登录弹窗 行为，点击元素：('xpath', '//a[@id="dClose"]')
+2022-03-17 17:11:36,793 py30 INFO basepage.py-38 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-03-17 17:11:36,812 py30 INFO basepage.py-50 line：等待耗时为：0.018926382064819336
+2022-03-17 17:11:36,812 py30 INFO basepage.py-91 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-03-17 17:11:36,819 py30 INFO basepage.py-144 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-03-17 17:11:37,237 py30 INFO basepage.py-38 line：在 输入手机号、邮箱 行为，等待元素：('xpath', '//input[@id="u-email"]') 可见。
+2022-03-17 17:11:37,253 py30 INFO basepage.py-50 line：等待耗时为：0.01563286781311035
+2022-03-17 17:11:37,253 py30 INFO basepage.py-91 line：在 输入手机号、邮箱 行为，查找元素：('xpath', '//input[@id="u-email"]')
+2022-03-17 17:11:37,258 py30 INFO basepage.py-164 line：在 输入手机号、邮箱 行为，给元素：('xpath', '//input[@id="u-email"]') 输入文本值：18782048139
+2022-03-17 17:11:37,321 py30 INFO basepage.py-38 line：在 输入密码 行为，等待元素：('xpath', '//input[@placeholder="请输入密码"]') 可见。
+2022-03-17 17:11:37,335 py30 INFO basepage.py-50 line：等待耗时为：0.013962507247924805
+2022-03-17 17:11:37,335 py30 INFO basepage.py-91 line：在 输入密码 行为，查找元素：('xpath', '//input[@placeholder="请输入密码"]')
+2022-03-17 17:11:37,340 py30 INFO basepage.py-164 line：在 输入密码 行为，给元素：('xpath', '//input[@placeholder="请输入密码"]') 输入文本值：123456789
+2022-03-17 17:11:37,410 py30 INFO basepage.py-38 line：在 点击登录按钮 行为，等待元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]') 可见。
+2022-03-17 17:11:37,431 py30 INFO basepage.py-50 line：等待耗时为：0.020943164825439453
+2022-03-17 17:11:37,431 py30 INFO basepage.py-91 line：在 点击登录按钮 行为，查找元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-03-17 17:11:37,439 py30 INFO basepage.py-144 line：在 点击登录按钮 行为，点击元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-03-17 17:11:42,476 py30 INFO basepage.py-38 line：在 查看登录后，用户名是否存在 行为，等待元素：('xpath', '//*[@id="userName"]') 可见。
+2022-03-17 17:11:43,274 py30 INFO basepage.py-50 line：等待耗时为：0.7983081340789795
+2022-03-17 17:11:43,274 py30 INFO basepage.py-91 line：在 查看登录后，用户名是否存在 行为，查找元素：('xpath', '//*[@id="userName"]')
+2022-03-21 15:44:16,266 py30 INFO basepage.py-37 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-03-21 15:44:16,296 py30 INFO basepage.py-49 line：等待耗时为：0.02388167381286621
+2022-03-21 15:44:16,296 py30 INFO basepage.py-90 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-03-21 15:44:16,304 py30 INFO basepage.py-143 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-03-21 15:44:16,846 py30 INFO basepage.py-37 line：在 输入手机号、邮箱 行为，等待元素：('xpath', '//input[@id="u-email"]') 可见。
+2022-03-21 15:44:16,862 py30 INFO basepage.py-49 line：等待耗时为：0.01595330238342285
+2022-03-21 15:44:16,862 py30 INFO basepage.py-90 line：在 输入手机号、邮箱 行为，查找元素：('xpath', '//input[@id="u-email"]')
+2022-03-21 15:44:16,867 py30 INFO basepage.py-163 line：在 输入手机号、邮箱 行为，给元素：('xpath', '//input[@id="u-email"]') 输入文本值：
+2022-03-21 15:44:16,896 py30 INFO basepage.py-37 line：在 输入密码 行为，等待元素：('xpath', '//input[@placeholder="请输入密码"]') 可见。
+2022-03-21 15:44:16,911 py30 INFO basepage.py-49 line：等待耗时为：0.01495814323425293
+2022-03-21 15:44:16,911 py30 INFO basepage.py-90 line：在 输入密码 行为，查找元素：('xpath', '//input[@placeholder="请输入密码"]')
+2022-03-21 15:44:16,917 py30 INFO basepage.py-163 line：在 输入密码 行为，给元素：('xpath', '//input[@placeholder="请输入密码"]') 输入文本值：
+2022-03-21 15:44:16,949 py30 INFO basepage.py-37 line：在 点击登录按钮 行为，等待元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]') 可见。
+2022-03-21 15:44:16,969 py30 INFO basepage.py-49 line：等待耗时为：0.019947528839111328
+2022-03-21 15:44:16,969 py30 INFO basepage.py-90 line：在 点击登录按钮 行为，查找元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-03-21 15:44:16,975 py30 INFO basepage.py-143 line：在 点击登录按钮 行为，点击元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-03-21 15:44:17,142 py30 INFO basepage.py-37 line：在 等待登录失败提示出现 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-03-21 15:44:17,159 py30 INFO basepage.py-49 line：等待耗时为：0.01695561408996582
+2022-03-21 15:44:17,159 py30 INFO basepage.py-37 line：在 获取错误的信息 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-03-21 15:44:17,171 py30 INFO basepage.py-49 line：等待耗时为：0.011967897415161133
+2022-03-21 15:44:17,171 py30 INFO basepage.py-90 line：在 获取错误的信息 行为，查找元素：('xpath', '//*[@class="icon16 u-a-cw"]')
+2022-03-21 15:44:17,177 py30 INFO basepage.py-183 line：在 获取错误的信息 行为，获取元素：('xpath', '//*[@class="icon16 u-a-cw"]') 文本值
+2022-03-21 15:44:17,187 py30 INFO basepage.py-37 line：在 关闭登录弹窗 行为，等待元素：('xpath', '//a[@id="dClose"]') 可见。
+2022-03-21 15:44:17,202 py30 INFO basepage.py-49 line：等待耗时为：0.014960050582885742
+2022-03-21 15:44:17,202 py30 INFO basepage.py-90 line：在 关闭登录弹窗 行为，查找元素：('xpath', '//a[@id="dClose"]')
+2022-03-21 15:44:17,207 py30 INFO basepage.py-143 line：在 关闭登录弹窗 行为，点击元素：('xpath', '//a[@id="dClose"]')
+2022-03-21 15:44:17,267 py30 INFO basepage.py-37 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-03-21 15:44:17,278 py30 INFO basepage.py-49 line：等待耗时为：0.010945320129394531
+2022-03-21 15:44:17,279 py30 INFO basepage.py-90 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-03-21 15:44:17,284 py30 INFO basepage.py-143 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-03-21 15:44:17,734 py30 INFO basepage.py-37 line：在 输入手机号、邮箱 行为，等待元素：('xpath', '//input[@id="u-email"]') 可见。
+2022-03-21 15:44:17,748 py30 INFO basepage.py-49 line：等待耗时为：0.013962984085083008
+2022-03-21 15:44:17,749 py30 INFO basepage.py-90 line：在 输入手机号、邮箱 行为，查找元素：('xpath', '//input[@id="u-email"]')
+2022-03-21 15:44:17,754 py30 INFO basepage.py-163 line：在 输入手机号、邮箱 行为，给元素：('xpath', '//input[@id="u-email"]') 输入文本值：18684720553
+2022-03-21 15:44:17,854 py30 INFO basepage.py-37 line：在 输入密码 行为，等待元素：('xpath', '//input[@placeholder="请输入密码"]') 可见。
+2022-03-21 15:44:17,867 py30 INFO basepage.py-49 line：等待耗时为：0.013002395629882812
+2022-03-21 15:44:17,868 py30 INFO basepage.py-90 line：在 输入密码 行为，查找元素：('xpath', '//input[@placeholder="请输入密码"]')
+2022-03-21 15:44:17,874 py30 INFO basepage.py-163 line：在 输入密码 行为，给元素：('xpath', '//input[@placeholder="请输入密码"]') 输入文本值：
+2022-03-21 15:44:17,905 py30 INFO basepage.py-37 line：在 点击登录按钮 行为，等待元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]') 可见。
+2022-03-21 15:44:17,922 py30 INFO basepage.py-49 line：等待耗时为：0.01695418357849121
+2022-03-21 15:44:17,922 py30 INFO basepage.py-90 line：在 点击登录按钮 行为，查找元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-03-21 15:44:17,928 py30 INFO basepage.py-143 line：在 点击登录按钮 行为，点击元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-03-21 15:44:17,973 py30 INFO basepage.py-37 line：在 等待登录失败提示出现 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-03-21 15:44:17,989 py30 INFO basepage.py-49 line：等待耗时为：0.01595759391784668
+2022-03-21 15:44:17,989 py30 INFO basepage.py-37 line：在 获取错误的信息 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-03-21 15:44:18,000 py30 INFO basepage.py-49 line：等待耗时为：0.010970592498779297
+2022-03-21 15:44:18,001 py30 INFO basepage.py-90 line：在 获取错误的信息 行为，查找元素：('xpath', '//*[@class="icon16 u-a-cw"]')
+2022-03-21 15:44:18,006 py30 INFO basepage.py-183 line：在 获取错误的信息 行为，获取元素：('xpath', '//*[@class="icon16 u-a-cw"]') 文本值
+2022-03-21 15:44:18,016 py30 INFO basepage.py-37 line：在 关闭登录弹窗 行为，等待元素：('xpath', '//a[@id="dClose"]') 可见。
+2022-03-21 15:44:18,036 py30 INFO basepage.py-49 line：等待耗时为：0.01994609832763672
+2022-03-21 15:44:18,036 py30 INFO basepage.py-90 line：在 关闭登录弹窗 行为，查找元素：('xpath', '//a[@id="dClose"]')
+2022-03-21 15:44:18,042 py30 INFO basepage.py-143 line：在 关闭登录弹窗 行为，点击元素：('xpath', '//a[@id="dClose"]')
+2022-03-21 15:44:18,070 py30 INFO basepage.py-37 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-03-21 15:44:18,084 py30 INFO basepage.py-49 line：等待耗时为：0.012965917587280273
+2022-03-21 15:44:18,084 py30 INFO basepage.py-90 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-03-21 15:44:18,091 py30 INFO basepage.py-143 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-03-21 15:44:18,514 py30 INFO basepage.py-37 line：在 输入手机号、邮箱 行为，等待元素：('xpath', '//input[@id="u-email"]') 可见。
+2022-03-21 15:44:18,527 py30 INFO basepage.py-49 line：等待耗时为：0.012990236282348633
+2022-03-21 15:44:18,528 py30 INFO basepage.py-90 line：在 输入手机号、邮箱 行为，查找元素：('xpath', '//input[@id="u-email"]')
+2022-03-21 15:44:18,533 py30 INFO basepage.py-163 line：在 输入手机号、邮箱 行为，给元素：('xpath', '//input[@id="u-email"]') 输入文本值：1868472055
+2022-03-21 15:44:18,618 py30 INFO basepage.py-37 line：在 输入密码 行为，等待元素：('xpath', '//input[@placeholder="请输入密码"]') 可见。
+2022-03-21 15:44:18,631 py30 INFO basepage.py-49 line：等待耗时为：0.012967109680175781
+2022-03-21 15:44:18,631 py30 INFO basepage.py-90 line：在 输入密码 行为，查找元素：('xpath', '//input[@placeholder="请输入密码"]')
+2022-03-21 15:44:18,637 py30 INFO basepage.py-163 line：在 输入密码 行为，给元素：('xpath', '//input[@placeholder="请输入密码"]') 输入文本值：python
+2022-03-21 15:44:18,699 py30 INFO basepage.py-37 line：在 点击登录按钮 行为，等待元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]') 可见。
+2022-03-21 15:44:18,713 py30 INFO basepage.py-49 line：等待耗时为：0.012933731079101562
+2022-03-21 15:44:18,713 py30 INFO basepage.py-90 line：在 点击登录按钮 行为，查找元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-03-21 15:44:18,719 py30 INFO basepage.py-143 line：在 点击登录按钮 行为，点击元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-03-21 15:44:18,748 py30 INFO basepage.py-37 line：在 等待登录失败提示出现 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-03-21 15:44:39,214 py30 ERROR basepage.py-43 line：等待元素 ('xpath', '//*[@class="icon16 u-a-cw"]') 可见失败！
+Traceback (most recent call last):
+  File "D:\Test_framework\Web_auto\Common\basepage.py", line 40, in wait_ele_visible
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.visibility_of_element_located(locator))
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2022-03-21 15:44:39,530 py30 ERROR basepage.py-282 line：对 等待登录失败提示出现 操作进行截图成功
+2022-03-21 15:44:39,531 py30 INFO basepage.py-283 line：截图保存在：D:\Test_framework\Web_auto\Outputs\screenshots\等待登录失败提示出现_2022-03-21-15-44-39.png
+2022-03-21 15:44:39,830 py30 ERROR basepage.py-282 line：对 获取错误信息用例失败截图 操作进行截图成功
+2022-03-21 15:44:39,830 py30 INFO basepage.py-283 line：截图保存在：D:\Test_framework\Web_auto\Outputs\screenshots\获取错误信息用例失败截图_2022-03-21-15-44-39.png
+2022-03-21 15:44:39,830 py30 INFO basepage.py-37 line：在 关闭登录弹窗 行为，等待元素：('xpath', '//a[@id="dClose"]') 可见。
+2022-03-21 15:44:39,843 py30 INFO basepage.py-49 line：等待耗时为：0.013020753860473633
+2022-03-21 15:44:39,843 py30 INFO basepage.py-90 line：在 关闭登录弹窗 行为，查找元素：('xpath', '//a[@id="dClose"]')
+2022-03-21 15:44:39,850 py30 INFO basepage.py-143 line：在 关闭登录弹窗 行为，点击元素：('xpath', '//a[@id="dClose"]')
+2022-03-21 15:44:39,878 py30 INFO basepage.py-37 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-03-21 15:44:39,893 py30 INFO basepage.py-49 line：等待耗时为：0.013950109481811523
+2022-03-21 15:44:39,893 py30 INFO basepage.py-90 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-03-21 15:44:39,900 py30 INFO basepage.py-143 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-03-21 15:44:40,360 py30 INFO basepage.py-37 line：在 输入手机号、邮箱 行为，等待元素：('xpath', '//input[@id="u-email"]') 可见。
+2022-03-21 15:44:40,376 py30 INFO basepage.py-49 line：等待耗时为：0.01695418357849121
+2022-03-21 15:44:40,376 py30 INFO basepage.py-90 line：在 输入手机号、邮箱 行为，查找元素：('xpath', '//input[@id="u-email"]')
+2022-03-21 15:44:40,381 py30 INFO basepage.py-163 line：在 输入手机号、邮箱 行为，给元素：('xpath', '//input[@id="u-email"]') 输入文本值：18782048139
+2022-03-21 15:44:40,473 py30 INFO basepage.py-37 line：在 输入密码 行为，等待元素：('xpath', '//input[@placeholder="请输入密码"]') 可见。
+2022-03-21 15:44:40,489 py30 INFO basepage.py-49 line：等待耗时为：0.015957355499267578
+2022-03-21 15:44:40,489 py30 INFO basepage.py-90 line：在 输入密码 行为，查找元素：('xpath', '//input[@placeholder="请输入密码"]')
+2022-03-21 15:44:40,494 py30 INFO basepage.py-163 line：在 输入密码 行为，给元素：('xpath', '//input[@placeholder="请输入密码"]') 输入文本值：123456789
+2022-03-21 15:44:40,586 py30 INFO basepage.py-37 line：在 点击登录按钮 行为，等待元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]') 可见。
+2022-03-21 15:44:40,603 py30 INFO basepage.py-49 line：等待耗时为：0.016955137252807617
+2022-03-21 15:44:40,603 py30 INFO basepage.py-90 line：在 点击登录按钮 行为，查找元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-03-21 15:44:40,610 py30 INFO basepage.py-143 line：在 点击登录按钮 行为，点击元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-03-21 15:44:40,654 py30 INFO basepage.py-37 line：在 查看登录后，用户名是否存在 行为，等待元素：('xpath', '//*[@id="userName"]') 可见。
+2022-03-21 15:44:41,433 py30 INFO basepage.py-49 line：等待耗时为：0.7789781093597412
+2022-03-21 15:44:41,433 py30 INFO basepage.py-90 line：在 查看登录后，用户名是否存在 行为，查找元素：('xpath', '//*[@id="userName"]')
+2022-03-21 15:46:34,477 py30 INFO basepage.py-37 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-03-21 15:46:34,576 py30 INFO basepage.py-49 line：等待耗时为：0.09876036643981934
+2022-03-21 15:46:34,576 py30 INFO basepage.py-90 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-03-21 15:46:34,582 py30 INFO basepage.py-143 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-03-21 15:46:35,403 py30 INFO basepage.py-37 line：在 输入手机号、邮箱 行为，等待元素：('xpath', '//input[@id="u-email"]') 可见。
+2022-03-21 15:46:35,419 py30 INFO basepage.py-49 line：等待耗时为：0.015956878662109375
+2022-03-21 15:46:35,419 py30 INFO basepage.py-90 line：在 输入手机号、邮箱 行为，查找元素：('xpath', '//input[@id="u-email"]')
+2022-03-21 15:46:35,424 py30 INFO basepage.py-163 line：在 输入手机号、邮箱 行为，给元素：('xpath', '//input[@id="u-email"]') 输入文本值：
+2022-03-21 15:46:35,452 py30 INFO basepage.py-37 line：在 输入密码 行为，等待元素：('xpath', '//input[@placeholder="请输入密码"]') 可见。
+2022-03-21 15:46:35,468 py30 INFO basepage.py-49 line：等待耗时为：0.014940023422241211
+2022-03-21 15:46:35,468 py30 INFO basepage.py-90 line：在 输入密码 行为，查找元素：('xpath', '//input[@placeholder="请输入密码"]')
+2022-03-21 15:46:35,474 py30 INFO basepage.py-163 line：在 输入密码 行为，给元素：('xpath', '//input[@placeholder="请输入密码"]') 输入文本值：
+2022-03-21 15:46:35,506 py30 INFO basepage.py-37 line：在 点击登录按钮 行为，等待元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]') 可见。
+2022-03-21 15:46:35,524 py30 INFO basepage.py-49 line：等待耗时为：0.01794910430908203
+2022-03-21 15:46:35,524 py30 INFO basepage.py-90 line：在 点击登录按钮 行为，查找元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-03-21 15:46:35,530 py30 INFO basepage.py-143 line：在 点击登录按钮 行为，点击元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-03-21 15:46:35,662 py30 INFO basepage.py-37 line：在 等待登录失败提示出现 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-03-21 15:46:35,679 py30 INFO basepage.py-49 line：等待耗时为：0.016954898834228516
+2022-03-21 15:46:35,679 py30 INFO basepage.py-37 line：在 获取错误的信息 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-03-21 15:46:35,690 py30 INFO basepage.py-49 line：等待耗时为：0.011012792587280273
+2022-03-21 15:46:35,690 py30 INFO basepage.py-90 line：在 获取错误的信息 行为，查找元素：('xpath', '//*[@class="icon16 u-a-cw"]')
+2022-03-21 15:46:35,700 py30 INFO basepage.py-183 line：在 获取错误的信息 行为，获取元素：('xpath', '//*[@class="icon16 u-a-cw"]') 文本值
+2022-03-21 15:46:35,717 py30 INFO basepage.py-37 line：在 关闭登录弹窗 行为，等待元素：('xpath', '//a[@id="dClose"]') 可见。
+2022-03-21 15:46:35,733 py30 INFO basepage.py-49 line：等待耗时为：0.015956640243530273
+2022-03-21 15:46:35,733 py30 INFO basepage.py-90 line：在 关闭登录弹窗 行为，查找元素：('xpath', '//a[@id="dClose"]')
+2022-03-21 15:46:35,739 py30 INFO basepage.py-143 line：在 关闭登录弹窗 行为，点击元素：('xpath', '//a[@id="dClose"]')
+2022-03-21 15:46:35,818 py30 INFO basepage.py-37 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-03-21 15:46:35,829 py30 INFO basepage.py-49 line：等待耗时为：0.009944438934326172
+2022-03-21 15:46:35,829 py30 INFO basepage.py-90 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-03-21 15:46:35,835 py30 INFO basepage.py-143 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-03-21 15:46:36,250 py30 INFO basepage.py-37 line：在 输入手机号、邮箱 行为，等待元素：('xpath', '//input[@id="u-email"]') 可见。
+2022-03-21 15:46:36,264 py30 INFO basepage.py-49 line：等待耗时为：0.013998270034790039
+2022-03-21 15:46:36,264 py30 INFO basepage.py-90 line：在 输入手机号、邮箱 行为，查找元素：('xpath', '//input[@id="u-email"]')
+2022-03-21 15:46:36,270 py30 INFO basepage.py-163 line：在 输入手机号、邮箱 行为，给元素：('xpath', '//input[@id="u-email"]') 输入文本值：18684720553
+2022-03-21 15:46:36,360 py30 INFO basepage.py-37 line：在 输入密码 行为，等待元素：('xpath', '//input[@placeholder="请输入密码"]') 可见。
+2022-03-21 15:46:36,377 py30 INFO basepage.py-49 line：等待耗时为：0.016944169998168945
+2022-03-21 15:46:36,377 py30 INFO basepage.py-90 line：在 输入密码 行为，查找元素：('xpath', '//input[@placeholder="请输入密码"]')
+2022-03-21 15:46:36,383 py30 INFO basepage.py-163 line：在 输入密码 行为，给元素：('xpath', '//input[@placeholder="请输入密码"]') 输入文本值：
+2022-03-21 15:46:36,416 py30 INFO basepage.py-37 line：在 点击登录按钮 行为，等待元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]') 可见。
+2022-03-21 15:46:36,435 py30 INFO basepage.py-49 line：等待耗时为：0.017954587936401367
+2022-03-21 15:46:36,435 py30 INFO basepage.py-90 line：在 点击登录按钮 行为，查找元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-03-21 15:46:36,441 py30 INFO basepage.py-143 line：在 点击登录按钮 行为，点击元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-03-21 15:46:36,471 py30 INFO basepage.py-37 line：在 等待登录失败提示出现 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-03-21 15:46:36,489 py30 INFO basepage.py-49 line：等待耗时为：0.01795482635498047
+2022-03-21 15:46:36,489 py30 INFO basepage.py-37 line：在 获取错误的信息 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-03-21 15:46:36,503 py30 INFO basepage.py-49 line：等待耗时为：0.013962984085083008
+2022-03-21 15:46:36,503 py30 INFO basepage.py-90 line：在 获取错误的信息 行为，查找元素：('xpath', '//*[@class="icon16 u-a-cw"]')
+2022-03-21 15:46:36,508 py30 INFO basepage.py-183 line：在 获取错误的信息 行为，获取元素：('xpath', '//*[@class="icon16 u-a-cw"]') 文本值
+2022-03-21 15:46:36,518 py30 INFO basepage.py-37 line：在 关闭登录弹窗 行为，等待元素：('xpath', '//a[@id="dClose"]') 可见。
+2022-03-21 15:46:36,534 py30 INFO basepage.py-49 line：等待耗时为：0.015957117080688477
+2022-03-21 15:46:36,534 py30 INFO basepage.py-90 line：在 关闭登录弹窗 行为，查找元素：('xpath', '//a[@id="dClose"]')
+2022-03-21 15:46:36,540 py30 INFO basepage.py-143 line：在 关闭登录弹窗 行为，点击元素：('xpath', '//a[@id="dClose"]')
+2022-03-21 15:46:36,574 py30 INFO basepage.py-37 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-03-21 15:46:36,590 py30 INFO basepage.py-49 line：等待耗时为：0.015985727310180664
+2022-03-21 15:46:36,590 py30 INFO basepage.py-90 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-03-21 15:46:36,596 py30 INFO basepage.py-143 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-03-21 15:46:37,050 py30 INFO basepage.py-37 line：在 输入手机号、邮箱 行为，等待元素：('xpath', '//input[@id="u-email"]') 可见。
+2022-03-21 15:46:37,071 py30 INFO basepage.py-49 line：等待耗时为：0.020952939987182617
+2022-03-21 15:46:37,071 py30 INFO basepage.py-90 line：在 输入手机号、邮箱 行为，查找元素：('xpath', '//input[@id="u-email"]')
+2022-03-21 15:46:37,079 py30 INFO basepage.py-163 line：在 输入手机号、邮箱 行为，给元素：('xpath', '//input[@id="u-email"]') 输入文本值：1868472055
+2022-03-21 15:46:37,173 py30 INFO basepage.py-37 line：在 输入密码 行为，等待元素：('xpath', '//input[@placeholder="请输入密码"]') 可见。
+2022-03-21 15:46:37,190 py30 INFO basepage.py-49 line：等待耗时为：0.015957355499267578
+2022-03-21 15:46:37,190 py30 INFO basepage.py-90 line：在 输入密码 行为，查找元素：('xpath', '//input[@placeholder="请输入密码"]')
+2022-03-21 15:46:37,196 py30 INFO basepage.py-163 line：在 输入密码 行为，给元素：('xpath', '//input[@placeholder="请输入密码"]') 输入文本值：python
+2022-03-21 15:46:37,264 py30 INFO basepage.py-37 line：在 点击登录按钮 行为，等待元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]') 可见。
+2022-03-21 15:46:37,282 py30 INFO basepage.py-49 line：等待耗时为：0.017960309982299805
+2022-03-21 15:46:37,282 py30 INFO basepage.py-90 line：在 点击登录按钮 行为，查找元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-03-21 15:46:37,288 py30 INFO basepage.py-143 line：在 点击登录按钮 行为，点击元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-03-21 15:46:37,320 py30 INFO basepage.py-37 line：在 等待登录失败提示出现 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-03-21 15:46:57,808 py30 ERROR basepage.py-43 line：等待元素 ('xpath', '//*[@class="icon16 u-a-cw"]') 可见失败！
+Traceback (most recent call last):
+  File "D:\Test_framework\Web_auto\Common\basepage.py", line 40, in wait_ele_visible
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.visibility_of_element_located(locator))
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2022-03-21 15:46:58,130 py30 ERROR basepage.py-282 line：对 等待登录失败提示出现 操作进行截图成功
+2022-03-21 15:46:58,130 py30 INFO basepage.py-283 line：截图保存在：D:\Test_framework\Web_auto\Outputs\screenshots\等待登录失败提示出现_2022-03-21-15-46-57.png
+2022-03-21 15:46:58,437 py30 ERROR basepage.py-282 line：对 获取错误信息用例失败截图 操作进行截图成功
+2022-03-21 15:46:58,437 py30 INFO basepage.py-283 line：截图保存在：D:\Test_framework\Web_auto\Outputs\screenshots\获取错误信息用例失败截图_2022-03-21-15-46-58.png
+2022-03-21 15:46:58,437 py30 INFO basepage.py-37 line：在 关闭登录弹窗 行为，等待元素：('xpath', '//a[@id="dClose"]') 可见。
+2022-03-21 15:46:58,450 py30 INFO basepage.py-49 line：等待耗时为：0.01298666000366211
+2022-03-21 15:46:58,450 py30 INFO basepage.py-90 line：在 关闭登录弹窗 行为，查找元素：('xpath', '//a[@id="dClose"]')
+2022-03-21 15:46:58,455 py30 INFO basepage.py-143 line：在 关闭登录弹窗 行为，点击元素：('xpath', '//a[@id="dClose"]')
+2022-03-21 15:46:58,486 py30 INFO basepage.py-37 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-03-21 15:46:58,499 py30 INFO basepage.py-49 line：等待耗时为：0.01296544075012207
+2022-03-21 15:46:58,499 py30 INFO basepage.py-90 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-03-21 15:46:58,505 py30 INFO basepage.py-143 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-03-21 15:46:59,017 py30 INFO basepage.py-37 line：在 输入手机号、邮箱 行为，等待元素：('xpath', '//input[@id="u-email"]') 可见。
+2022-03-21 15:46:59,031 py30 INFO basepage.py-49 line：等待耗时为：0.013992071151733398
+2022-03-21 15:46:59,031 py30 INFO basepage.py-90 line：在 输入手机号、邮箱 行为，查找元素：('xpath', '//input[@id="u-email"]')
+2022-03-21 15:46:59,036 py30 INFO basepage.py-163 line：在 输入手机号、邮箱 行为，给元素：('xpath', '//input[@id="u-email"]') 输入文本值：18782048139
+2022-03-21 15:46:59,136 py30 INFO basepage.py-37 line：在 输入密码 行为，等待元素：('xpath', '//input[@placeholder="请输入密码"]') 可见。
+2022-03-21 15:46:59,150 py30 INFO basepage.py-49 line：等待耗时为：0.013963460922241211
+2022-03-21 15:46:59,150 py30 INFO basepage.py-90 line：在 输入密码 行为，查找元素：('xpath', '//input[@placeholder="请输入密码"]')
+2022-03-21 15:46:59,156 py30 INFO basepage.py-163 line：在 输入密码 行为，给元素：('xpath', '//input[@placeholder="请输入密码"]') 输入文本值：123456789
+2022-03-21 15:46:59,242 py30 INFO basepage.py-37 line：在 点击登录按钮 行为，等待元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]') 可见。
+2022-03-21 15:46:59,257 py30 INFO basepage.py-49 line：等待耗时为：0.014959335327148438
+2022-03-21 15:46:59,257 py30 INFO basepage.py-90 line：在 点击登录按钮 行为，查找元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-03-21 15:46:59,266 py30 INFO basepage.py-143 line：在 点击登录按钮 行为，点击元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-03-21 15:46:59,301 py30 INFO basepage.py-37 line：在 查看登录后，用户名是否存在 行为，等待元素：('xpath', '//*[@id="userName"]') 可见。
+2022-03-21 15:47:00,128 py30 INFO basepage.py-49 line：等待耗时为：0.8276617527008057
+2022-03-21 15:47:00,129 py30 INFO basepage.py-90 line：在 查看登录后，用户名是否存在 行为，查找元素：('xpath', '//*[@id="userName"]')
+2022-03-21 16:04:35,648 py30 INFO basepage.py-37 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-03-21 16:04:36,167 py30 INFO basepage.py-49 line：等待耗时为：0.5184805393218994
+2022-03-21 16:04:36,167 py30 INFO basepage.py-90 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-03-21 16:04:36,174 py30 INFO basepage.py-143 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-03-21 16:04:36,632 py30 INFO basepage.py-37 line：在 输入手机号、邮箱 行为，等待元素：('xpath', '//input[@id="u-email"]') 可见。
+2022-03-21 16:04:36,649 py30 INFO basepage.py-49 line：等待耗时为：0.016953706741333008
+2022-03-21 16:04:36,649 py30 INFO basepage.py-90 line：在 输入手机号、邮箱 行为，查找元素：('xpath', '//input[@id="u-email"]')
+2022-03-21 16:04:36,655 py30 INFO basepage.py-163 line：在 输入手机号、邮箱 行为，给元素：('xpath', '//input[@id="u-email"]') 输入文本值：
+2022-03-21 16:04:36,684 py30 INFO basepage.py-37 line：在 输入密码 行为，等待元素：('xpath', '//input[@placeholder="请输入密码"]') 可见。
+2022-03-21 16:04:36,700 py30 INFO basepage.py-49 line：等待耗时为：0.015932798385620117
+2022-03-21 16:04:36,700 py30 INFO basepage.py-90 line：在 输入密码 行为，查找元素：('xpath', '//input[@placeholder="请输入密码"]')
+2022-03-21 16:04:36,706 py30 INFO basepage.py-163 line：在 输入密码 行为，给元素：('xpath', '//input[@placeholder="请输入密码"]') 输入文本值：
+2022-03-21 16:04:36,736 py30 INFO basepage.py-37 line：在 点击登录按钮 行为，等待元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]') 可见。
+2022-03-21 16:04:36,752 py30 INFO basepage.py-49 line：等待耗时为：0.015957117080688477
+2022-03-21 16:04:36,752 py30 INFO basepage.py-90 line：在 点击登录按钮 行为，查找元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-03-21 16:04:36,758 py30 INFO basepage.py-143 line：在 点击登录按钮 行为，点击元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-03-21 16:04:36,962 py30 INFO basepage.py-37 line：在 等待登录失败提示出现 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-03-21 16:04:36,982 py30 INFO basepage.py-49 line：等待耗时为：0.01892256736755371
+2022-03-21 16:04:36,982 py30 INFO basepage.py-37 line：在 获取错误的信息 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-03-21 16:04:36,996 py30 INFO basepage.py-49 line：等待耗时为：0.013962984085083008
+2022-03-21 16:04:36,996 py30 INFO basepage.py-90 line：在 获取错误的信息 行为，查找元素：('xpath', '//*[@class="icon16 u-a-cw"]')
+2022-03-21 16:04:37,002 py30 INFO basepage.py-183 line：在 获取错误的信息 行为，获取元素：('xpath', '//*[@class="icon16 u-a-cw"]') 文本值
+2022-03-21 16:04:37,011 py30 INFO basepage.py-37 line：在 关闭登录弹窗 行为，等待元素：('xpath', '//a[@id="dClose"]') 可见。
+2022-03-21 16:04:37,026 py30 INFO basepage.py-49 line：等待耗时为：0.014986038208007812
+2022-03-21 16:04:37,026 py30 INFO basepage.py-90 line：在 关闭登录弹窗 行为，查找元素：('xpath', '//a[@id="dClose"]')
+2022-03-21 16:04:37,031 py30 INFO basepage.py-143 line：在 关闭登录弹窗 行为，点击元素：('xpath', '//a[@id="dClose"]')
+2022-03-21 16:04:37,195 py30 INFO basepage.py-37 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-03-21 16:04:37,208 py30 INFO basepage.py-49 line：等待耗时为：0.012930631637573242
+2022-03-21 16:04:37,209 py30 INFO basepage.py-90 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-03-21 16:04:37,214 py30 INFO basepage.py-143 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-03-21 16:04:37,921 py30 INFO basepage.py-37 line：在 输入手机号、邮箱 行为，等待元素：('xpath', '//input[@id="u-email"]') 可见。
+2022-03-21 16:04:37,935 py30 INFO basepage.py-49 line：等待耗时为：0.012964963912963867
+2022-03-21 16:04:37,935 py30 INFO basepage.py-90 line：在 输入手机号、邮箱 行为，查找元素：('xpath', '//input[@id="u-email"]')
+2022-03-21 16:04:37,940 py30 INFO basepage.py-163 line：在 输入手机号、邮箱 行为，给元素：('xpath', '//input[@id="u-email"]') 输入文本值：18684720553
+2022-03-21 16:04:38,003 py30 INFO basepage.py-37 line：在 输入密码 行为，等待元素：('xpath', '//input[@placeholder="请输入密码"]') 可见。
+2022-03-21 16:04:38,017 py30 INFO basepage.py-49 line：等待耗时为：0.013962507247924805
+2022-03-21 16:04:38,017 py30 INFO basepage.py-90 line：在 输入密码 行为，查找元素：('xpath', '//input[@placeholder="请输入密码"]')
+2022-03-21 16:04:38,022 py30 INFO basepage.py-163 line：在 输入密码 行为，给元素：('xpath', '//input[@placeholder="请输入密码"]') 输入文本值：
+2022-03-21 16:04:38,052 py30 INFO basepage.py-37 line：在 点击登录按钮 行为，等待元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]') 可见。
+2022-03-21 16:04:38,066 py30 INFO basepage.py-49 line：等待耗时为：0.012938261032104492
+2022-03-21 16:04:38,066 py30 INFO basepage.py-90 line：在 点击登录按钮 行为，查找元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-03-21 16:04:38,072 py30 INFO basepage.py-143 line：在 点击登录按钮 行为，点击元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-03-21 16:04:38,099 py30 INFO basepage.py-37 line：在 等待登录失败提示出现 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-03-21 16:04:38,113 py30 INFO basepage.py-49 line：等待耗时为：0.01399087905883789
+2022-03-21 16:04:38,113 py30 INFO basepage.py-37 line：在 获取错误的信息 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-03-21 16:04:38,123 py30 INFO basepage.py-49 line：等待耗时为：0.009972810745239258
+2022-03-21 16:04:38,123 py30 INFO basepage.py-90 line：在 获取错误的信息 行为，查找元素：('xpath', '//*[@class="icon16 u-a-cw"]')
+2022-03-21 16:04:38,129 py30 INFO basepage.py-183 line：在 获取错误的信息 行为，获取元素：('xpath', '//*[@class="icon16 u-a-cw"]') 文本值
+2022-03-21 16:04:38,138 py30 INFO basepage.py-37 line：在 关闭登录弹窗 行为，等待元素：('xpath', '//a[@id="dClose"]') 可见。
+2022-03-21 16:04:38,151 py30 INFO basepage.py-49 line：等待耗时为：0.01296544075012207
+2022-03-21 16:04:38,151 py30 INFO basepage.py-90 line：在 关闭登录弹窗 行为，查找元素：('xpath', '//a[@id="dClose"]')
+2022-03-21 16:04:38,157 py30 INFO basepage.py-143 line：在 关闭登录弹窗 行为，点击元素：('xpath', '//a[@id="dClose"]')
+2022-03-21 16:04:38,189 py30 INFO basepage.py-37 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-03-21 16:04:38,202 py30 INFO basepage.py-49 line：等待耗时为：0.012964010238647461
+2022-03-21 16:04:38,202 py30 INFO basepage.py-90 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-03-21 16:04:38,209 py30 INFO basepage.py-143 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-03-21 16:04:38,709 py30 INFO basepage.py-37 line：在 输入手机号、邮箱 行为，等待元素：('xpath', '//input[@id="u-email"]') 可见。
+2022-03-21 16:04:38,724 py30 INFO basepage.py-49 line：等待耗时为：0.014641046524047852
+2022-03-21 16:04:38,724 py30 INFO basepage.py-90 line：在 输入手机号、邮箱 行为，查找元素：('xpath', '//input[@id="u-email"]')
+2022-03-21 16:04:38,730 py30 INFO basepage.py-163 line：在 输入手机号、邮箱 行为，给元素：('xpath', '//input[@id="u-email"]') 输入文本值：1868472055
+2022-03-21 16:04:38,792 py30 INFO basepage.py-37 line：在 输入密码 行为，等待元素：('xpath', '//input[@placeholder="请输入密码"]') 可见。
+2022-03-21 16:04:38,806 py30 INFO basepage.py-49 line：等待耗时为：0.0139617919921875
+2022-03-21 16:04:38,806 py30 INFO basepage.py-90 line：在 输入密码 行为，查找元素：('xpath', '//input[@placeholder="请输入密码"]')
+2022-03-21 16:04:38,811 py30 INFO basepage.py-163 line：在 输入密码 行为，给元素：('xpath', '//input[@placeholder="请输入密码"]') 输入文本值：python
+2022-03-21 16:04:38,856 py30 INFO basepage.py-37 line：在 点击登录按钮 行为，等待元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]') 可见。
+2022-03-21 16:04:38,871 py30 INFO basepage.py-49 line：等待耗时为：0.014959335327148438
+2022-03-21 16:04:38,871 py30 INFO basepage.py-90 line：在 点击登录按钮 行为，查找元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-03-21 16:04:38,877 py30 INFO basepage.py-143 line：在 点击登录按钮 行为，点击元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-03-21 16:04:38,903 py30 INFO basepage.py-37 line：在 等待登录失败提示出现 行为，等待元素：('xpath', '//*[@class="icon16 u-a-cw"]') 可见。
+2022-03-21 16:04:59,402 py30 ERROR basepage.py-43 line：等待元素 ('xpath', '//*[@class="icon16 u-a-cw"]') 可见失败！
+Traceback (most recent call last):
+  File "D:\Test_framework\Web_auto\Common\basepage.py", line 40, in wait_ele_visible
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.visibility_of_element_located(locator))
+  File "C:\Program Files\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2022-03-21 16:04:59,721 py30 ERROR basepage.py-282 line：对 等待登录失败提示出现 操作进行截图成功
+2022-03-21 16:04:59,721 py30 INFO basepage.py-283 line：截图保存在：D:\Test_framework\Web_auto\Outputs\screenshots\等待登录失败提示出现_2022-03-21-16-04-59.png
+2022-03-21 16:05:00,041 py30 ERROR basepage.py-282 line：对 获取错误信息用例失败截图 操作进行截图成功
+2022-03-21 16:05:00,041 py30 INFO basepage.py-283 line：截图保存在：D:\Test_framework\Web_auto\Outputs\screenshots\获取错误信息用例失败截图_2022-03-21-16-04-59.png
+2022-03-21 16:05:00,041 py30 INFO basepage.py-37 line：在 关闭登录弹窗 行为，等待元素：('xpath', '//a[@id="dClose"]') 可见。
+2022-03-21 16:05:00,057 py30 INFO basepage.py-49 line：等待耗时为：0.01595759391784668
+2022-03-21 16:05:00,057 py30 INFO basepage.py-90 line：在 关闭登录弹窗 行为，查找元素：('xpath', '//a[@id="dClose"]')
+2022-03-21 16:05:00,062 py30 INFO basepage.py-143 line：在 关闭登录弹窗 行为，点击元素：('xpath', '//a[@id="dClose"]')
+2022-03-21 16:05:00,090 py30 INFO basepage.py-37 line：在 点击首页登录按钮 行为，等待元素：('xpath', '//*[@class="vam ml5"]') 可见。
+2022-03-21 16:05:00,109 py30 INFO basepage.py-49 line：等待耗时为：0.01892232894897461
+2022-03-21 16:05:00,109 py30 INFO basepage.py-90 line：在 点击首页登录按钮 行为，查找元素：('xpath', '//*[@class="vam ml5"]')
+2022-03-21 16:05:00,115 py30 INFO basepage.py-143 line：在 点击首页登录按钮 行为，点击元素：('xpath', '//*[@class="vam ml5"]')
+2022-03-21 16:05:00,914 py30 INFO basepage.py-37 line：在 输入手机号、邮箱 行为，等待元素：('xpath', '//input[@id="u-email"]') 可见。
+2022-03-21 16:05:00,931 py30 INFO basepage.py-49 line：等待耗时为：0.016954660415649414
+2022-03-21 16:05:00,931 py30 INFO basepage.py-90 line：在 输入手机号、邮箱 行为，查找元素：('xpath', '//input[@id="u-email"]')
+2022-03-21 16:05:00,936 py30 INFO basepage.py-163 line：在 输入手机号、邮箱 行为，给元素：('xpath', '//input[@id="u-email"]') 输入文本值：18782048139
+2022-03-21 16:05:00,999 py30 INFO basepage.py-37 line：在 输入密码 行为，等待元素：('xpath', '//input[@placeholder="请输入密码"]') 可见。
+2022-03-21 16:05:01,015 py30 INFO basepage.py-49 line：等待耗时为：0.015927791595458984
+2022-03-21 16:05:01,015 py30 INFO basepage.py-90 line：在 输入密码 行为，查找元素：('xpath', '//input[@placeholder="请输入密码"]')
+2022-03-21 16:05:01,021 py30 INFO basepage.py-163 line：在 输入密码 行为，给元素：('xpath', '//input[@placeholder="请输入密码"]') 输入文本值：123456789
+2022-03-21 16:05:01,075 py30 INFO basepage.py-37 line：在 点击登录按钮 行为，等待元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]') 可见。
+2022-03-21 16:05:01,092 py30 INFO basepage.py-49 line：等待耗时为：0.016954898834228516
+2022-03-21 16:05:01,092 py30 INFO basepage.py-90 line：在 点击登录按钮 行为，查找元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-03-21 16:05:01,099 py30 INFO basepage.py-143 line：在 点击登录按钮 行为，点击元素：('xpath', '//*[@class="e-login-btn" and @title="登 录"]')
+2022-03-21 16:05:01,136 py30 INFO basepage.py-37 line：在 查看登录后，用户名是否存在 行为，等待元素：('xpath', '//*[@id="userName"]') 可见。
+2022-03-21 16:05:01,943 py30 INFO basepage.py-49 line：等待耗时为：0.8064210414886475
+2022-03-21 16:05:01,943 py30 INFO basepage.py-90 line：在 查看登录后，用户名是否存在 行为，查找元素：('xpath', '//*[@id="userName"]')
